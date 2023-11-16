@@ -10,7 +10,8 @@
     "lint-staged": "lint-staged",
     "prepare-husky": "husky install",
     "storybook": "start-storybook -p 6006",
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+    "commit": "git add . && git commit -m \"Update Project purpose\" && git push"
   },
   "husky": {
     "hooks": {

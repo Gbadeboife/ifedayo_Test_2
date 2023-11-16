@@ -1,3 +1,5 @@
+# This project is a toy project for training and quality assurance purposes
+
 # Web App
 
 Boilerplate Webpack 5, React and Bootstrap 5 project with global Css and Css modules enabled.
