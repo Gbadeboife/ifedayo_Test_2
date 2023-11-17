@@ -55,7 +55,7 @@ for this project you can downgrade your `node version to 14 or 16`
 # Task
 
 - To login go to https://test.manaknightdev.com:3000/
-- kevin@rocketplantech.com / Abcdef123
+- devtest@manaknightdev.com / Abcdef123
 - Create the form page https://test.manaknightdev.com:3000/form as in screenshot_1
 - Create delete modal and it can delete the form as well screenshot_2
 - When we click on add button, it will open modal popup showing form. need to integrate the ADD FORM api
