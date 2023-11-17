@@ -24,7 +24,7 @@ module.exports = merge(common, {
     compress: true,
     hot: true,
     port: 3000,
-    host: 'test.rocketplantech.com',
+    host: 'test.manaknightdev.com/',
     https: true,
     noInfo: true, //This turns off information regarding the bundle.  Set to false if you need to view the messages
   },
