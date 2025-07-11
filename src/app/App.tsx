@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Provider } from 'react-redux';
-import { Routes } from 'Routes/Routes';
+import { Routes } from '../routes';
 
 import { UserProvider } from 'Context/User';
 import { CoreProvider } from 'Context/Core';
