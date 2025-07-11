@@ -1,6 +1,6 @@
 // setup methods for external use of Axios
 import axios from 'axios';
-import { Api, baseURL, headers } from 'Utils/api';
+import { Api, baseURL, headers } from './api';
 import { Buffer } from 'buffer';
 
 // Create a custom instance, without the withCredentials attribute.  AWS doesn't like it

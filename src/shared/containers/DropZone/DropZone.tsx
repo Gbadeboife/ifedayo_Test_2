@@ -6,7 +6,7 @@ import { Dropzone } from 'Components/DropZone';
 import { useDropzone } from 'react-dropzone';
 import { useDispatch, useSelector } from 'react-redux';
 import { handleApiRequest } from 'Utils/handleApiRequest';
-import { Api } from 'Utils/api';
+import { Api } from '../../../utils/api';
 
 import { showToast } from 'Containers/PhotoErrorToast/actions';
 import { attachAlbumPhoto, setFileUploadingRoom } from 'Containers/DropZone/actions';
