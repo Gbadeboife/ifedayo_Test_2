@@ -60,7 +60,7 @@ import {
 
 import { projectInfoClearedSelector } from 'Containers/Projects/selectors';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from '../../../utils/equalityChecks';
 import { locationCreatedSelector, locationTypesSelector } from 'Containers/RocketScan/MultiUnit/Locations/selectors';
 import { getLocation, listLocationTypes } from 'Containers/RocketScan/MultiUnit/Locations/actions';
 import { setCarouselRoutePath } from 'Containers/RocketScan/PhotoView/Carousel/actions';

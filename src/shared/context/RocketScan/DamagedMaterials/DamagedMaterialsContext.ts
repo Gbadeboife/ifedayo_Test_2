@@ -7,7 +7,7 @@ import {
   scopeActionTypesSelector,
   projectHasNewDamageTypesSelector,
 } from 'Containers/RocketScan/selectors';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from '../../../utils/equalityChecks';
 import { addOrRemoveFromArray } from 'Utils/helpers';
 import {
   syncRoomDamagedMaterials,

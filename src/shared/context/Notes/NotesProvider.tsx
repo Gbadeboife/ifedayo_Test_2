@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from '../../utils/equalityChecks';
 
 import { NotesFormContext, NotesFormFunctions } from 'Context/Notes';
 import { DeleteNoteModal } from 'Components/Notes';

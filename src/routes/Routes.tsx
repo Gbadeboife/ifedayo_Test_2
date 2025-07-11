@@ -55,6 +55,8 @@ import { PhotoReport, DryingReport, ReportsAndDocuments } from 'Containers/Repor
 import { PrivateRoute } from './PrivateRoutes';
 import { PublicRoute } from './PublicRoutes';
 
+import { areEqual } from '../shared/utils/equalityChecks';
+
 // Render Props.  Create here to prevent a rerender, on a route change, due to arrow functions always being considered new
 const signInHowRoute = () => (
   <GuestWrapper>
