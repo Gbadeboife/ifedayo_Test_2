@@ -6,7 +6,7 @@ import { useHistory, useParams } from 'react-router-dom';
 import { areEqual } from 'Utils/equalityChecks';
 import { SignInHow } from 'Components/SignIn';
 import { useDispatch, useSelector } from 'react-redux';
-import { Oauth2 } from 'Utils/oauth2';
+import { Oauth2 } from '../../../../utils/oauth2';
 import { setEmail, getBasicCompanyInfo, setValidated } from './actions';
 import { emailValidator } from 'Utils/regex';
 import { inviteCompanyInfoSelector, validatedSelector } from 'Containers/SignIn/SignInHow/selector';

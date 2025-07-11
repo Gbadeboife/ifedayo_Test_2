@@ -3,7 +3,7 @@ import thunk from 'redux-thunk';
 
 // API requests
 import { Api } from '../shared/utils/api';
-import { Oauth2 } from 'Utils/oauth2';
+import { Oauth2 } from '../shared/utils/oauth2';
 
 // Normally use this if there were multiple reducers.
 import reducers from './combinedReducers';
