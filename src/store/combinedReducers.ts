@@ -29,7 +29,7 @@ import { PhotoErrorToastReducer } from 'Containers/PhotoErrorToast/reducer';
 import { PhotoShareReducer } from 'Containers/Public/PhotoShare/reducer';
 import { photoViewCarouselReducer } from 'Containers/PhotoViewCarousel/reducer';
 import { dropZoneReducer } from 'Containers/DropZone/reducer';
-import { dashboardReducer } from 'Containers/Dashboard/reducer';
+import { dashboardReducer } from '../shared/containers/Dashboard/reducer';
 import { employeesReducer } from 'Containers/People/PeopleTabs/EmployeesTab/reducer';
 import { employeeInviteReducer } from 'Containers/InviteEmployees/reducer';
 import { contactsReducer } from 'Containers/People/PeopleTabs/ContactsTab/reducer';

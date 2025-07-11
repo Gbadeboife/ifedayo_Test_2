@@ -2,7 +2,7 @@ import React, { memo, ReactNode } from 'react';
 
 import { areEqual } from 'Utils/equalityChecks';
 
-import { SideBar } from 'Containers/Dashboard';
+import { SideBar } from '../../../containers/Dashboard';
 import { Nav } from 'Containers/Nav';
 import { Mask } from 'Components/Mask';
 

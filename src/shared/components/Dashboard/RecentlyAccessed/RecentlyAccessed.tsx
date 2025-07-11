@@ -2,7 +2,7 @@ import React, { memo } from "react";
 import { areEqual } from "Utils/equalityChecks";
 
 import { Anchor } from "Components/Anchor";
-import { CreateProjectButton } from "Containers/Dashboard";
+import { CreateProjectButton } from "../../../containers/Dashboard";
 
 import classes from "./recentlyAccessed.module.css";
 
