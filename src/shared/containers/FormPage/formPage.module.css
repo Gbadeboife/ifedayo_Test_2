@@ -1,0 +1,360 @@
+.formPageBase {
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tabsWrapper {
+  background-color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.tabsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tabs {
+  border: none;
+}
+
+.active-Tab,
+.active-Tab:hover {
+  color: #ffffff !important;
+  font-weight: 600;
+  border-radius: 0 0 16px 16px;
+  background: linear-gradient(316.14deg, #6d00e6 1.84%, #9a00ff 96.25%) !important;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  min-width: 200px;
+  padding: 12px 40px;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.active-Tab .icon svg {
+  fill: #fff;
+  color: #fff;
+}
+
+.formTemplatesSection {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px rgba(142, 134, 163, 0.1);
+}
+
+.header {
+  padding: 24px;
+  border-bottom: 1px solid #d2cfda;
+}
+
+.headerContent {
+  align-items: center;
+}
+
+.title {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+  margin-right: 40px;
+  display: inline-block;
+  color: #000000;
+}
+
+.addButton {
+  border: 1px solid #9a00ff;
+  color: #9a00ff;
+  background: transparent;
+  padding: 13px 46px;
+  font-size: 20px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 29px;
+  gap: 4px;
+  transition: background 0.2s ease;
+}
+
+.addButton:hover {
+  background: #f4e5ff;
+  color: #9a00ff;
+}
+
+.addButton svg {
+  width: 16px;
+  height: 16px;
+}
+
+.tableContainer {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.table {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5b476b;
+  border-color: #e8e7ed;
+  background-color: #ffffff;
+  margin-top: 24px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.table thead th:first-child,
+.table tbody td:first-child {
+  padding-left: 72px;
+}
+
+.table thead th:last-child,
+.table tbody td:last-child {
+  padding-right: 72px;
+}
+
+.table thead th {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #777185;
+  padding-bottom: 1.2em;
+  border-bottom-color: #e8e7ed !important;
+}
+
+.table tbody tr:hover {
+  background-color: #f4e5ff;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.table tbody td {
+  vertical-align: middle;
+}
+
+.table p {
+  margin-bottom: 0;
+}
+
+.tableCell {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #777185;
+  padding: 5px 0;
+  cursor: default;
+  max-width: 150px;
+  word-wrap: break-word;
+}
+
+.tableCellName {
+  font-weight: 500;
+  padding-left: 72px;
+}
+
+.tableCellDate {
+  color: #777185;
+}
+
+.tableCellActions {
+  text-align: center;
+}
+
+.deleteButton {
+  color: #777185;
+  background: transparent;
+  width: 32px;
+  height: 32px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.deleteButtonIcon {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.deleteButton:hover {
+  color: #dc3545;
+  background: #f8f9fa;
+}
+
+.deleteButton svg {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.deleteModalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.2);
+  z-index: 2000;
+}
+.deleteModal {
+  position: fixed;
+  top: 50%;
+  padding: 12px 0;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 24px rgba(0,0,0,0.18);
+  z-index: 2001;
+  width: 420px;
+  max-width: 98vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.deleteModalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 32px;
+
+  padding-bottom: 8px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 8px;
+}
+.deleteModalTitle {
+  font-weight: 600;
+  
+  font-size: 20px;
+}
+.deleteModalClose {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+.deleteModalBody {
+  margin: 24px 0;
+  font-size: 17px;
+  padding: 0 32px ;
+
+  text-align: center;
+}
+.deleteModalActions {
+  display: flex;
+  gap: 24px;
+  padding: 0 32px;
+
+  width: 100%;
+  justify-content: center;
+}
+.deleteModalDeleteBtn {
+  background: #fff;
+  color: #d32f2f;
+  border: 1.5px solid #d32f2f;
+  border-radius: 6px;
+  padding: 10px 32px;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+.deleteModalDeleteBtn:disabled {
+  opacity: 0.7;
+}
+.deleteModalCancelBtn {
+  background: #fff;
+  border: 1.5px solid black;
+  border-radius: 6px;
+  padding: 10px 32px;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+.deleteModalCancelBtn:disabled {
+  opacity: 0.7;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 24px rgba(0,0,0,0.18);
+  z-index: 1001;
+  width: 900px;
+  max-width: 98vw;
+  padding: 40px;
+  min-height: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.modalTitle {
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0;
+}
+.modalClose {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.modalForm {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.modalBody {
+  flex: 1;
+  display: flex;
+  gap: 16px;
+}
+.modalActions {
+  margin-top: 32px;
+  align-self: center;
+} 
