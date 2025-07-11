@@ -42,6 +42,7 @@ import { Project } from 'Containers/Project';
 import { Account, About } from 'Containers/User';
 import { ProjectData } from 'Containers/ProjectData';
 import { RocketDry } from 'Containers/RocketDry';
+import { FormPage } from 'Containers/FormPage';
 
 // route components
 import { PhotoShareProvider } from 'Context/PhotoShare/PhotoShareProvider';
@@ -179,6 +180,13 @@ const EditAddressRoute = () => (
 const PeopleRoute = () => (
   <DashboardWrapper>
     <People />
+  </DashboardWrapper>
+);
+
+// form related routes
+const FormPageRoute = () => (
+  <DashboardWrapper>
+    <FormPage />
   </DashboardWrapper>
 );
 
@@ -377,6 +385,7 @@ export const Routes = () => (
       <PrivateRoute exact path="/projects/:projectId/reports/generate/drying" render={GenerateDryingReportRoute} />
 
       <PrivateRoute exact path="/people" render={PeopleRoute} />
+      <PrivateRoute exact path="/form" render={FormPageRoute} />
 
       <PrivateRoute exact path="/user/account" render={AccountRoute} />
       <PrivateRoute exact path="/user/about" render={AboutRoute} />

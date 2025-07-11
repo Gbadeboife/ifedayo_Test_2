@@ -127,6 +127,8 @@ interface Props {
   events?: any;
   onClick?: (e: any) => void;
   onKeyUp?: (e: any) => void;
+  width?: number;
+  height?: number;
 }
 
 const getIcon = (type, className, id, fill, onClick, onKeyUp) => {
@@ -328,7 +330,7 @@ const getIcon = (type, className, id, fill, onClick, onKeyUp) => {
   return icons[type] || null;
 };
 
-const Icon = ({ className, id, fill = '', onClick, onKeyUp, type }: Props) => {
+const Icon = ({ className, id, fill = '', onClick, onKeyUp, type,}: Props) => {
   const [icon, setIcon] = useState(null);
 
   useEffect(() => {
@@ -337,7 +339,7 @@ const Icon = ({ className, id, fill = '', onClick, onKeyUp, type }: Props) => {
       const iconType = type.toLocaleLowerCase().replace(/\s+/g, '');
 
       // set the icon based on icon type change, useful for conditional icon renderings
-      setIcon(getIcon(iconType, className, id, fill, onClick, onKeyUp));
+      setIcon(getIcon(iconType, className, id, fill, onClick, onKeyUp,));
     }
   }, [type, className]);
 
@@ -349,6 +351,8 @@ Icon.defaultProps = {
   className: undefined,
   fill: undefined,
   events: undefined,
+  width: undefined,
+  height: undefined,
 };
 
 const IconMemo = memo(Icon, areEqual);

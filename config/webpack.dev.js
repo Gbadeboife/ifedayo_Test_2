@@ -31,9 +31,9 @@ module.exports = merge(common, {
 
   module: {
     rules: [
-      // Styles: Inject CSS into the head with source maps
+      // CSS Modules (your own files)
       {
-        test: /\.(scss|css)$/i,
+        test: /\.module\.(css|scss)$/,
         use: [
           'style-loader',
           {
@@ -41,30 +41,28 @@ module.exports = merge(common, {
             options: {
               sourceMap: true,
               importLoaders: 1,
-              // modules: true,
               modules: {
                 localIdentName: '[name]__[local]___[hash:base64:5]',
               },
             },
           },
-          { loader: 'postcss-loader', options: { sourceMap: true } },
+          { loader: 'postcss-loader', options: { sourceMap: true, postcssOptions: { config: true } } },
           { loader: 'sass-loader', options: { sourceMap: true } },
         ],
-        include: /\.module\.css$/i,
       },
+      // Global CSS (everything else, including node_modules)
       {
-        test: /\.(scss|css)$/i,
+        test: /\.(css|scss)$/,
+        exclude: /\.module\.(css|scss)$/,
         use: [
           'style-loader',
-          // 'css-loader',
           {
             loader: 'css-loader',
             options: { sourceMap: true, importLoaders: 1 },
           },
-          { loader: 'postcss-loader', options: { sourceMap: true } },
+          { loader: 'postcss-loader', options: { sourceMap: true, postcssOptions: { config: true } } },
           { loader: 'sass-loader', options: { sourceMap: true } },
         ],
-        exclude: /\.module\.css$/i,
       },
     ],
   },

@@ -7,7 +7,7 @@ import { Label } from 'Components/Label';
 
 import formClasses from 'Themes/form/form.module.css';
 import classes from './dateOfLossEdit.module.css';
-import 'react-datepicker/dist/react-datepicker-min.module.css';
+import 'react-datepicker/dist/react-datepicker.css';
 
 interface Props {
   lossDate: any;
