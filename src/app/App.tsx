@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { Routes } from '../routes';
 
 import { UserProvider } from '../shared/context/User';
-import { CoreProvider } from 'Context/Core';
+import { CoreProvider } from '../shared/context/Core';
 
 // Pull the mock data
 import { setupStore } from '../store';
