@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 
 import { areEqual } from "Utils/equalityChecks";
 import { SignInEmail } from "Components/SignIn/";
-import { login } from "Containers/Auth";
+import { login } from "../../../containers/Auth";
 import { useHistory } from "react-router-dom";
 import { passwordEightCharactersValidator, emailValidator } from "Utils/regex";
 import { clear } from "./actions";

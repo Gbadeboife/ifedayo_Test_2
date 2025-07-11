@@ -7,7 +7,7 @@ import { UserPhonesModel } from 'Containers/User/Models/UserPhonesModel';
 
 import { UserModel } from 'Containers/User/Models/UserModel';
 import { UserInfoCard } from 'Components/Profiles/Account/UserProfile/UserInfoCard';
-import { logout } from 'Containers/Auth/actions';
+import { logout } from '../../../../../containers/Auth/actions';
 import { removeAppRedirectPathLocal } from 'Containers/Core/actions';
 import { userPhones } from 'Containers/User/actions';
 import { formatPhoneInternationalWithCountryCode } from 'Utils/helpers';

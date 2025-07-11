@@ -2,7 +2,7 @@ import { combineReducers } from 'redux';
 
 // Import Reducers
 import { NavReducer } from 'Containers/Nav';
-import { AuthReducer } from 'Containers/Auth';
+import { AuthReducer } from '../shared/containers/Auth';
 import { CoreReducer } from 'Containers/Core';
 import { SignInHowEmailCheckReducer, SignInHowCompanyInviteReducer } from 'Containers/SignIn/SignInHow';
 import { UserReducer } from 'Containers/User';

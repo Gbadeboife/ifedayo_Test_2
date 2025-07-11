@@ -1,5 +1,5 @@
 import { setFetching, setToaster, setFormErrors as setErrors } from 'Containers/Core/actions';
-import { logout } from 'Containers/Auth';
+import { logout } from '../containers/Auth';
 import { createBrowserHistory } from 'history';
 import { Api } from './api';
 

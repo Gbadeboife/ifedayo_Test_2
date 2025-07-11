@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-import { SET_AUTHENTICATED, SET_AUTHENTICATION_TYPE, SOCIAL_LOGIN_ERRORS } from 'Containers/Auth/actions';
+import { SET_AUTHENTICATED, SET_AUTHENTICATION_TYPE, SOCIAL_LOGIN_ERRORS } from '../containers/Auth/actions';
 import { SET_FETCHING } from 'Containers/Core/actions';
 import { height, width } from 'Utils/screen';
 import { userDetails } from 'Containers/User';
