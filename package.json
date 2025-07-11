@@ -61,6 +61,7 @@
     "react-phone-number-input": "^3.1.35",
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
     "react-textarea-autosize": "^8.3.3",
     "react-use-intercom": "^1.4.0",
     "redux": "^4.1.0",
