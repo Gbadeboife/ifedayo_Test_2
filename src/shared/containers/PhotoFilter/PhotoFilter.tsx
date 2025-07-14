@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useState } from "react";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import { PhotoFilter } from "Components/PhotoFilter";
 import { setSelectedPhotoFilter } from "Containers/Project/Unit/actions";
 import { useDispatch, useSelector } from "react-redux";

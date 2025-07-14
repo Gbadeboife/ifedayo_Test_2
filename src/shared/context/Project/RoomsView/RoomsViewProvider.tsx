@@ -1,6 +1,6 @@
 import React, { memo, ReactNode } from 'react';
 
-import { areEqual } from '../../../utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { RoomsViewContext, RoomsViewFunctions } from 'Context/Project/RoomsView';
 

@@ -3,7 +3,7 @@ import React, { memo } from 'react';
 import { EditButton } from 'Components/Button/EditButton';
 import { Icon } from 'Components/Icons';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import classes from './noPhotoPlaceholder.module.css';
 
 interface Props {

@@ -1,5 +1,5 @@
 import React, { memo, useState, useCallback } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { RocketDryBody, MoistureAtmosphericWrapper, EquipmentLog } from 'Components/RocketDry';
 import { useRocketDryFunctions } from 'Context/RocketDry';

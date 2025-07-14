@@ -1,6 +1,6 @@
 import React, { memo, ReactNode, useState } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { width } from 'Utils/screen';
 // import { Icon } from "Components/Icons";
 import { ProjectsSearch } from 'Containers/Projects';

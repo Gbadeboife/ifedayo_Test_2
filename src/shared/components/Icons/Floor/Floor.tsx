@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import Floor from '../../../Assets/floor.svg';
 import FloorSm from '../../../Assets/floor-sm.svg';
 import FloorAdd from '../../../Assets/floor-add.svg';

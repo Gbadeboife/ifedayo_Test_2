@@ -1,5 +1,5 @@
 import React, { memo, ReactNode, useCallback } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useHistory } from 'react-router-dom';
 
 import { useSelector } from 'react-redux';

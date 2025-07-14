@@ -6,7 +6,7 @@ import { NotesDropdown, CreateNoteForm, NoteItems, LoadMoreNotesButton } from 'C
 import { UserModel } from 'Containers/User/Models/UserModel';
 import { useUser } from 'Context/User';
 import { isCompanyAdmin } from 'Utils/roles';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { projectSelector } from 'Containers/RocketScan/selectors';
 import { limitText } from 'Utils/helpers';

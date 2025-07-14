@@ -1,6 +1,6 @@
 import React, { memo, ReactNode } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { PurpleButton } from 'Components/Button';
 import { ProjectDataHeader } from 'Containers/ProjectData';
 

@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { DeleteRoomModal } from 'Components/RocketScan';
 

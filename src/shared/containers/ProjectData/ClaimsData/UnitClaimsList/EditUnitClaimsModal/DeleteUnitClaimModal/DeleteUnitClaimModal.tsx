@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { deleteClaim } from 'Containers/ProjectData/ClaimsData/actions';
 
 import { DeleteUnitClaimModal } from 'Components/ProjectData/ClaimsData/UnitClaims/UnitClaimsList/DeleteUnitClaimModal';

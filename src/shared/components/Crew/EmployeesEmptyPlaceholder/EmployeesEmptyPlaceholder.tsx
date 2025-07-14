@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { Icon } from 'Components/Icons';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import classes from './employeesEmptyPlaceholder.module.css';
 

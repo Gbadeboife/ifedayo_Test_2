@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { PurpleButton } from 'Components/Button';
 import { DamagedMaterialsPlaceholder, DamagedMaterialsView, DamageTypesMenu } from 'Components/RocketScan';
 import { DamagedMaterialsModal } from 'Containers/RocketScan';

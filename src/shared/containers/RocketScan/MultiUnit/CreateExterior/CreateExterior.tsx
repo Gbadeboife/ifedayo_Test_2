@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { Icon } from 'Components/Icons';
 import { TileButton } from 'Components/Button';
 import { projectIdSelector, propertySelector, propertyTypesSelector } from 'Containers/RocketScan/selectors';

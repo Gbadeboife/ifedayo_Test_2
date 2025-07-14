@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import Asbestos from '../../../../Assets/asbestos.svg';
 
 // Custom css

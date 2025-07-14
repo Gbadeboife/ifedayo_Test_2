@@ -1,6 +1,6 @@
 import React, { memo, useEffect, useState } from "react";
 import { Icon } from "Components/Icons";
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 
 import { useSelector } from "react-redux";
 import { selectedMultiUnitSelector } from "Containers/Project/Unit/selector";

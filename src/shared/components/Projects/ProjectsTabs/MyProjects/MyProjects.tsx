@@ -2,7 +2,7 @@ import { Spinner } from 'Components/Spinner';
 import { ProjectsList, ProjectsPagination } from 'Components/Projects';
 import { TabContent } from 'Components/Tabs';
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import classes from './myProjects.module.css';
 

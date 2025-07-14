@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { ContactForm } from 'Components/People/PeopleTabs';
 import { useDispatch, useSelector } from 'react-redux';
 import { coreFetchingSelector } from 'Containers/Core/selectors';

@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { DryingReportForm, GenerateReportWrapper } from 'Components/ReportsAndDocuments';
 import { useDispatch, useSelector } from 'react-redux';
 import { createReport, setReportCreated } from 'Containers/ReportsAndDocuments/Reports/actions';

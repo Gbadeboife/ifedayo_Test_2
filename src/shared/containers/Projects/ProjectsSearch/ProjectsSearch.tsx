@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import { useProjectsFunctions } from 'Context/Projects';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { SearchBox } from 'Components/SearchBox';
 

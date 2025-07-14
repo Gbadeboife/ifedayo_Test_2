@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import classes from './spinner.module.css';
 
 interface Props {

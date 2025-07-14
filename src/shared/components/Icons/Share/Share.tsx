@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import Share32 from '../../../Assets/share-32.svg';
 import Share from '../../../Assets/share.svg';
 

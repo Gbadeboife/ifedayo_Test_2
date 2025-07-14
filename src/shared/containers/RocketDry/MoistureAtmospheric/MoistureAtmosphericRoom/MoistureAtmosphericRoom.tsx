@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useRef, useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { InternalAtmosphericTable, RocketDryRoomHeader, NoRecordingsPlaceholder } from 'Components/RocketDry';
 import { MoistureLogs } from 'Containers/RocketDry';

@@ -5,7 +5,7 @@ import { PurpleButton } from 'Components/Button/PurpleButton';
 import { Employees } from 'Containers/People/PeopleTabs/EmployeesTab';
 import { InvitePlaceholder } from 'Components/People/PeopleTabs';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import classes from './employeesTab.module.css';
 

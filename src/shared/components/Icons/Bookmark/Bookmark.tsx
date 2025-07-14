@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import Bookmark from '../../../Assets/bookmark.svg';
 import BookmarkPurple from '../../../Assets/bookmark-purple.svg';
 import BookmarkPhoto from '../../../Assets/bookmark-photo.svg';

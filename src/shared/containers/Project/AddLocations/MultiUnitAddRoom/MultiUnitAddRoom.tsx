@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import { MultiUnitAddContent } from "Containers/Project/AddLocations/MultiUnitAddRoom/MultiUnitContent";
 import { MultiUnitHeader } from "Containers/Project/AddLocations/MultiUnitAddRoom/MultiUnitHeader";
 

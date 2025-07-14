@@ -1,7 +1,7 @@
 import React, { memo, useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { Location } from 'Components/Public';
 import { photoShareUnitRoomsSelector, uuidSelector } from '../PhotoShare/selectors';

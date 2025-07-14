@@ -1,5 +1,5 @@
 import A from 'axios';
-import { Api } from '../../../../../../utils/api';
+import { Api } from 'Utils/api';
 import { getTimeout, sleep } from 'Utils/helpers';
 
 const tusVersion = '1.0.0';

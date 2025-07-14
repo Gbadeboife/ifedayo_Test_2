@@ -1,5 +1,5 @@
 import React, { KeyboardEvent, memo, MouseEvent } from "react";
-import { areEqualShallow } from "Utils/equalityChecks";
+import { areEqualShallow } from "utils/equalityChecks";
 import classes from "./pillButton.module.css";
 /*
     Todo:  Use the bs markup and base classes.

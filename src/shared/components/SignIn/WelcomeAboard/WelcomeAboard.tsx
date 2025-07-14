@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 import { Icon } from "Components/Icons";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 
 import { SignInWrapper } from "../SignInWrapper";
 import classes from "./welcomeAboard.module.css";

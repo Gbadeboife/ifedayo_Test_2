@@ -1,10 +1,11 @@
 import React, { memo, useCallback, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { mobileWarningModalShownSelector } from '../../containers/Dashboard/selector';
-import { setMobileWarningModalShown } from '../../containers/Dashboard/actions';
+import { mobileWarningModalShownSelector } from 'Containers/Dashboard/selector';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { setMobileWarningModalShown } from 'Containers/Dashboard/actions';
+
+import { areEqual } from 'utils/equalityChecks';
 import { MobileWarningModal } from 'Components/MobileWarningModal';
 
 const MobileWarningModalContainer = () => {

@@ -1,5 +1,5 @@
 import React, { memo, KeyboardEvent } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 // import classes from './anchor.module.css';
 

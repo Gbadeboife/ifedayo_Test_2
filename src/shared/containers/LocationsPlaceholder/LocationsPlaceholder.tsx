@@ -2,7 +2,7 @@ import React, { memo } from "react";
 import { Icon } from "Components/Icons";
 import { PlaceholderLayout } from "Components/Layouts/Placeholder";
 import { PurpleButton } from "Components/Button";
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import classes from "./locationsPlaceholder.module.css";
 
 interface Props {

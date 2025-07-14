@@ -3,7 +3,7 @@ import React, { memo, ReactNode } from "react";
 
 // import { UnitSelector } from "Containers/UnitSelector";
 import { UnitSelector } from "Containers/UnitSelector";
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import { width } from "Utils/screen";
 import { Tab } from "../Tab";
 import classes from "./locations.tabs.module.css";

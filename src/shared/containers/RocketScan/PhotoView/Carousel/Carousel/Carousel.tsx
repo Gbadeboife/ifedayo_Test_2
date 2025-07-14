@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useEffect, useRef, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { Carousel } from 'bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { carouselPhotoDeletedSelector } from 'Containers/PhotoViewCarousel/selector';

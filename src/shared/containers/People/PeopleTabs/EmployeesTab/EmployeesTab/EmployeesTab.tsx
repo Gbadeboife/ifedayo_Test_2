@@ -1,7 +1,7 @@
 import React, { memo, useEffect, useCallback, useState, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { countries } from 'Utils/data';
 
 import { InfoCardModal, EditEmployee, DeleteToast } from 'Components/People/PeopleTabs';

@@ -2,7 +2,7 @@ import React, { memo, useCallback, useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { useUser } from 'Context/User';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { sendReactivationClick } from 'Containers/User/actions';
 

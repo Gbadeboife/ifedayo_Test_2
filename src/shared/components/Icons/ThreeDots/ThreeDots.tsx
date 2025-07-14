@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import ThreeDots from '../../../Assets/three-dots.svg';
 
 // Custom css

@@ -1,9 +1,9 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { SignUpEmail } from 'Components/SignIn/SignUpEmail';
 import { useDispatch, useSelector } from 'react-redux';
-import { register } from '../../../containers/Auth/actions';
+import { register } from 'Containers/Auth/actions';
 import { inviteCompanyInfoSelector } from 'Containers/SignIn/SignInHow/selector';
 // TODO::keep the error returns as array, we need to build the invalidFeedback component to handle multiple error messages
 

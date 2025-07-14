@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useSelector } from 'react-redux';
 import { albumTypesSelector, selectedCategoriesSelector } from 'Containers/RocketScan/selectors';
 import { Gallery } from 'Containers/RocketScan';

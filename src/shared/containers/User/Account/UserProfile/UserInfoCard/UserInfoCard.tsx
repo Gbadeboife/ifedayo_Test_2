@@ -1,13 +1,13 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useUser } from 'Context/User';
 import { UserPhonesModel } from 'Containers/User/Models/UserPhonesModel';
 
 import { UserModel } from 'Containers/User/Models/UserModel';
 import { UserInfoCard } from 'Components/Profiles/Account/UserProfile/UserInfoCard';
-import { logout } from '../../../../../containers/Auth/actions';
+import { logout } from 'Containers/Auth/actions';
 import { removeAppRedirectPathLocal } from 'Containers/Core/actions';
 import { userPhones } from 'Containers/User/actions';
 import { formatPhoneInternationalWithCountryCode } from 'Utils/helpers';

@@ -1,5 +1,5 @@
 import React, { memo, useLayoutEffect, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { SelectedPhoto } from 'Containers/RocketScan';
 import { useSelector } from 'react-redux';
 import {

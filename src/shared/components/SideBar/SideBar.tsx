@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { NavLink } from 'react-router-dom';
 import { Icon } from 'Components/Icons';
 import { CompanyHeader } from 'Components/CompanyHeader';

@@ -1,7 +1,7 @@
 import React, { memo, useCallback } from 'react';
 import { useDispatch } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { ImageDeleteModal } from 'Components/ImageDeleteModal';
 
 import { deletePhoto } from 'Containers/Thumbnail/actions';

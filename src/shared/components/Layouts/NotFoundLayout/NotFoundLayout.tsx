@@ -3,7 +3,7 @@ import React, { memo } from 'react';
 import { Icon } from 'Components/Icons';
 import { PurpleButton } from 'Components/Button/PurpleButton';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import classes from './notFoundLayout.module.css';
 

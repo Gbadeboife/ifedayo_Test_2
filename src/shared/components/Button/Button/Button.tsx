@@ -1,5 +1,5 @@
 import React, { KeyboardEvent, memo, MouseEvent } from 'react';
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 /*
     Todo:  Use the bs markup and base classes.
     THen test with an overload on witdh and see which takes precedence.

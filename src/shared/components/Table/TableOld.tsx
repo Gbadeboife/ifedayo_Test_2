@@ -1,6 +1,6 @@
 import React, { ReactNode, FC } from 'react';
 
-// import { areEqual } from "Utils/equalityChecks";
+// import { areEqual } from "utils/equalityChecks";
 import { TableCaption } from './TableCaption';
 import { TableHeader } from './TableHeader';
 import { TableBody } from './TableBody';

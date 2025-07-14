@@ -3,7 +3,7 @@ import React, { memo } from "react";
 import { Button } from "Components/Button";
 // import { UnitLink } from "../UnitLink";
 import { UnitLink } from "Containers/UnitSelector/UnitLink/UnitLink";
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 
 import { UnitSelectorRoom } from "Containers/UnitSelector/UnitSelectorRoom";
 import classes from "./unitSelector.module.css";

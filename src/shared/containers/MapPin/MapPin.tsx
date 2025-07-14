@@ -1,7 +1,7 @@
 import React, { memo, useCallback } from 'react';
 
 import { MapPin } from 'Components/MapPin';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 interface Props {
   onClick: any;

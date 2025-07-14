@@ -1,6 +1,6 @@
 import React, { ChangeEvent, KeyboardEvent, memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 /*
     Todo:  Use the bs markup and base classes.

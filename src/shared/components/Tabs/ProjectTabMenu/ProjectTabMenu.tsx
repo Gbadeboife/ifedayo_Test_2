@@ -1,6 +1,6 @@
 import React, { memo, ReactNode } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { width } from 'Utils/screen';
 import { Tab } from '../Tab';
 import classes from './projectTabMenu.module.css';

@@ -1,5 +1,5 @@
 import React, { memo, useEffect, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useDamagedMaterialFunctions } from 'Context/RocketScan';
 
 import { DamagedMaterialListItem, CreateCustomDamagedMaterial, EditCustomDamagedMaterial } from 'Containers/RocketScan';

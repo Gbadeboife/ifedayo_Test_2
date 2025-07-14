@@ -1,5 +1,5 @@
 import React, { memo, ReactNode } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { SingleProjectProvider } from 'Context/Project';
 import { ProjectTabsLayout } from 'Containers/Layouts';
 import { TabContent } from 'Components/Tabs';

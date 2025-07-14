@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 
 import { RocketEmblemSvg } from 'Components/Icons/RocketEmblem';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { Anchor } from 'Components/Anchor';
 import { PurpleButton } from 'Components/Button';
 

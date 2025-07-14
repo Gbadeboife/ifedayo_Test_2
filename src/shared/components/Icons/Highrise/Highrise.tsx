@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import Highrise from '../../../Assets/highrise.svg';
 import HighriseSmall from '../../../Assets/highrise-small.svg';

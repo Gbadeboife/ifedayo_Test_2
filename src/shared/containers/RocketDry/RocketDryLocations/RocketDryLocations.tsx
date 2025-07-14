@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { SpinnerBlock } from 'Components/SpinnerBlock';
 
 import { RocketDryLocation } from 'Containers/RocketDry';

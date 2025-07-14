@@ -2,7 +2,7 @@ import React, { memo, useCallback, useEffect, useState } from 'react';
 
 import { SingleUnitAdd } from 'Containers/SingleUnitAdd';
 import { MultiUnitAdd } from 'Containers/MultiUnitAdd';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useDispatch, useSelector } from 'react-redux';
 import { setUnitType } from 'Containers/Projects';
 import { useHistory, useLocation } from 'react-router-dom';

@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 import { Label } from 'Components/Label';
 import { ValidateBackGround } from 'Components/Validation';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { PurpleButton } from 'Components/Button/PurpleButton';
 import InputMask from 'react-input-mask';
 import { SignInWrapper } from '../SignInWrapper';

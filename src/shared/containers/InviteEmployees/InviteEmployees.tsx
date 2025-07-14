@@ -1,7 +1,7 @@
 import React, { memo, useCallback, useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { InviteEmployees } from 'Components/InviteEmployees';
 import { firstCompanyIdSelector } from 'Containers/Projects/selectors';
 import { sendInviteSelector, emailInviteLinkSelector, emailErrorSelector } from './selectors';

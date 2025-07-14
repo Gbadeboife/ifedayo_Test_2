@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useEffect, useRef, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { CreateNoteForm, LoadMoreNotesButton, NoteItems, NotesDropdown } from 'Components/Notes';
 
 import { useDispatch, useSelector } from 'react-redux';

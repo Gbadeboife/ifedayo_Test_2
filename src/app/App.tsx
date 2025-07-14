@@ -1,10 +1,10 @@
 import React from 'react';
 
 import { Provider } from 'react-redux';
-import { Routes } from '../routes';
+import { Routes } from 'Routes/Routes';
 
-import { UserProvider } from '../shared/context/User';
-import { CoreProvider } from '../shared/context/Core';
+import { UserProvider } from 'Context/User';
+import { CoreProvider } from 'Context/Core';
 
 // Pull the mock data
 import { setupStore } from '../store';

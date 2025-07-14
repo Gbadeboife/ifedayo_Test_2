@@ -1,7 +1,7 @@
 import React, { memo, ReactNode } from 'react';
 import { Icon } from 'Components/Icons';
 import { EditLocation } from 'Containers/RocketScan';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { ProjectAlias } from 'Containers/Project';
 import { ProjectStatusBadge } from 'Containers/ProjectData';
 import classes from './tabContentHeader.module.css';

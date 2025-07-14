@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { NoteCard } from 'Components/Notes';
 import { NotesModel } from 'Containers/Notes';
 import { convertWordsFirstLetterUppercase, formatDate } from 'Utils/helpers';

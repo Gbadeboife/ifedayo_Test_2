@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { PropertyData } from 'Components/ProjectData';
 import { usePropertyDataFunctions } from 'Context/PropertyData';

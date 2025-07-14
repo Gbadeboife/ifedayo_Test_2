@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import Flag from '../../../Assets/flag.svg';
 import FlagPurple from '../../../Assets/flag-purple.svg';
 import FlagPhoto from '../../../Assets/flag-photo.svg';

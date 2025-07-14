@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { AffectedLocationModal } from 'Components/ProjectData';
 import { affectedLocationRoomsSelector, locationDamageTypesSelector } from 'Containers/ProjectData/LossData/selectors';

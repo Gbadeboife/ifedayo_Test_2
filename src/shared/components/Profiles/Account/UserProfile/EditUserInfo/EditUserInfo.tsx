@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import InputMask from 'react-input-mask';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { ValidateBackGround } from 'Components/Validation';
 import { Label } from 'Components/Label';

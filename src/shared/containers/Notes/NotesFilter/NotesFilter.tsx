@@ -1,5 +1,5 @@
 import React, { memo, useCallback } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { NotesFilter } from 'Components/Notes';
 import { useNotesFunctions } from 'Context/Notes';
 

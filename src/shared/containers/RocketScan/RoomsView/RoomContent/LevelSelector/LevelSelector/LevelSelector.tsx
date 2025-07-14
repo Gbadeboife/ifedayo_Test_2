@@ -1,7 +1,7 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 
 import { LevelSelector } from 'Components/Selectors/LevelSelector/LevelSelector';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useSelector } from 'react-redux';
 
 import { levelTypesSelector, exteriorLevelsSelector } from 'Containers/RocketScan/selectors';

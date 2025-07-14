@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 
 import { Modal } from 'Components/Modal';
 import { SelectedPhotos, PhotoShareLink } from 'Containers/RocketScan';

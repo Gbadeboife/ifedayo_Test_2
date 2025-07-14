@@ -1,6 +1,6 @@
 import React, { memo, useEffect } from 'react';
 
-import { areEqual } from '../../utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import {
   getPhotoShareFloors,
   getPhotoShareInfo,

@@ -1,5 +1,5 @@
 import React, { memo, useEffect, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { TabContentHeader } from 'Components/TabContentHeader';
 import { useSelector } from 'react-redux';
 import { projectAddressSelector, projectSelector, propertySelector } from 'Containers/RocketScan/selectors';

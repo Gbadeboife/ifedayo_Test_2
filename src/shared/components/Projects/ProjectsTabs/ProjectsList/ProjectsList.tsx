@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { Table, TableBody, TableColumn, TableHeader, TableRow, Th } from 'Components/Table';
 import { CompanyProjectsDataModal, CompanyProjectsModal } from 'Containers/Projects/Modals/CompanyProjectsModal';

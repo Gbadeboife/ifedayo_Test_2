@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { AddRoom, RoomButtons, AddExterior } from 'Containers/RocketScan';
 
 import { useSelector } from 'react-redux';

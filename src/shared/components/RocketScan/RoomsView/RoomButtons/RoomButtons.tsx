@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { RoomLevel } from 'Components/RocketScan';
 import { RoomButton } from 'Containers/RocketScan';
 

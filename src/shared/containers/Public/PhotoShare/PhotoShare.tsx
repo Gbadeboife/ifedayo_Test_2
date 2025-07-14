@@ -1,7 +1,7 @@
 import React, { memo, useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { PhotoShare } from 'Components/PhotoShare';
 import { Spinner } from 'Components/Spinner';

@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 
-import { areEqualShallow } from "Utils/equalityChecks";
+import { areEqualShallow } from "utils/equalityChecks";
 import Storage from "../../../Assets/storage.svg";
 
 // Custom css

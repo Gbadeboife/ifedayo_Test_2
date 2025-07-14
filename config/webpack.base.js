@@ -86,7 +86,7 @@ module.exports = {
       Containers: path.normalize(`${paths.src}/shared/containers`),
       Context: path.normalize(`${paths.src}/shared/context`),
       HOC: path.normalize(`${paths.src}/shared/hoc`),
-      Utils: path.normalize(`${paths.src}/shared/utils`),
+      utils: path.normalize(`${paths.src}/shared/utils`),
       Hooks: path.normalize(`${paths.src}/shared/hooks`),
       Themes: path.normalize(`${paths.src}/shared/themes`),
       Routes: path.normalize(`${paths.src}/routes`),

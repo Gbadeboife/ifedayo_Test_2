@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { projectAddressSelector, projectSelector, propertySelector } from 'Containers/RocketScan/selectors';
 import { listLocationClaims, setLocationClaimSelected } from 'Containers/RocketScan/MultiUnit/Locations/actions';

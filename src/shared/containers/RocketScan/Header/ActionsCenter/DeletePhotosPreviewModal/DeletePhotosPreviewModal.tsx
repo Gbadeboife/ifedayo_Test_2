@@ -1,7 +1,7 @@
 import React, { memo, useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { deleteSelectedPhotos } from 'Containers/RocketScan/Header/ActionsCenter/actions';
 

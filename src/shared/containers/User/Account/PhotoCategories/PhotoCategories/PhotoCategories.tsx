@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { PhotoCategories } from 'Components/User';
 import { useDispatch, useSelector } from 'react-redux';
 import { firstCompanyIdSelector } from 'Containers/Projects/selectors';

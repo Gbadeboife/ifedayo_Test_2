@@ -2,7 +2,7 @@ import React, { memo, useState, useCallback, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { ForgotPassword } from 'Components/SignIn';
 import { setToaster } from 'Containers/Core';
 import { emailValidator } from 'Utils/regex';

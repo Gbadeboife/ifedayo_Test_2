@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import ReportsCompact from '../../../Assets/reports-type-compact.svg';
 import ReportsExpanded from '../../../Assets/reports-type-expanded.svg';
 import ReportsLarge from '../../../Assets/reports-type-large.svg';

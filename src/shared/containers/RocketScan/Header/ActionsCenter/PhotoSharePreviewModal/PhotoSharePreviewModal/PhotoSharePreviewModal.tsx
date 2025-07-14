@@ -1,7 +1,7 @@
 import React, { memo, useEffect, useState, useCallback } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { PhotoSharePreviewModal } from 'Components/RocketScan';
 import {

@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { RoleDropDown } from 'Components/RoleDropDown';
 
 import { selectedEmployeeSelector } from 'Containers/People/PeopleTabs/EmployeesTab/selectors';

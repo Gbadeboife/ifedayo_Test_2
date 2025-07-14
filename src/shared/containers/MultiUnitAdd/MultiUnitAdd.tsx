@@ -2,7 +2,7 @@ import React, { memo } from "react";
 
 import { ProjectHeader } from "Containers/ProjectHeader";
 import { MultiUnitContent } from "Containers/ProjectContent/MultiUnitContent";
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import classes from "./multiUnitAdd.module.css";
 
 const MultiUnitAddContainer = () => (

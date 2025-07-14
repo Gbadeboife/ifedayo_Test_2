@@ -2,7 +2,7 @@
 import React, { memo, useCallback, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import { resetToast } from "./actions";
 
 import { toastSelector } from "./selector";

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { areEqual } from '../../utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { pusherSelector } from 'Containers/Core/selectors';
 
 // events for a single project

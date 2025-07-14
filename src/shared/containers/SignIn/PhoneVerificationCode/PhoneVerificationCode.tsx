@@ -1,7 +1,7 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { useHistory } from 'react-router-dom';
 import { PhoneVerificationCode } from 'Components/SignIn/PhoneVerificationCode';
@@ -10,7 +10,7 @@ import { UserModel } from 'Containers/User/Models/UserModel';
 import { CODE_VERIFIED } from 'Containers/SignIn/PhoneVerificationCode/actions';
 import { UserPhonesModel } from 'Containers/User/Models/UserPhonesModel';
 import { inviteCompanyInfoSelector } from 'Containers/SignIn/SignInHow/selector';
-import { smsSendVerification, smsVerifyCode } from '../../../containers/Auth/actions';
+import { smsSendVerification, smsVerifyCode } from 'Containers/Auth/actions';
 import { useUser } from 'Context/User';
 import { userPhoneDetailsSelector } from 'Containers/User/selector';
 

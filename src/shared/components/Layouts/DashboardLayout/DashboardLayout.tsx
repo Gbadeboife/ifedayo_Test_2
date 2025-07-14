@@ -1,8 +1,8 @@
 import React, { memo, ReactNode } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
-import { SideBar } from '../../../containers/Dashboard';
+import { SideBar } from 'Containers/Dashboard';
 import { Nav } from 'Containers/Nav';
 import { Mask } from 'Components/Mask';
 

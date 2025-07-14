@@ -1,5 +1,5 @@
 import React, { memo, ReactNode } from 'react';
-import { areEqual } from '../../utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { LossDataContext, LossDataFunctions } from 'Context/LossData';
 

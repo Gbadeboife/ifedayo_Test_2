@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 import { Icon } from 'Components/Icons';
 import { TileButton } from 'Components/Button';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import classes from './choosePropertyType.module.css';
 

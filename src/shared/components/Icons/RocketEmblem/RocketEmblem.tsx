@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import RocketEmblem from '../../../Assets/logo.svg';
 import RocketEmblemTwo from '../../../Assets/logo.svg';
 import RocketEmblemThree from '../../../Assets/logo.svg';

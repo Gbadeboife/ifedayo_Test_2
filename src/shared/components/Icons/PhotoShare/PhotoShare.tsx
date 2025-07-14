@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import PhotoShare from '../../../Assets/photo-share.svg';
 import PhotoShareError from '../../../Assets/photo-share-error.svg';
 

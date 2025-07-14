@@ -3,7 +3,7 @@ import React, { memo } from 'react';
 import { Icon } from 'Components/Icons';
 import { TileButton } from 'Components/Button/TileButton';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { CreateUnit, CreateFloor, Locations, CreateExterior } from 'Containers/RocketScan';
 
 import classes from './multiUnitBody.module.css';

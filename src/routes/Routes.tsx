@@ -5,8 +5,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import queryString from 'query-string';
 
 // layout wrappers and dashboard container
-import { Dashboard, DashboardWrapper } from '../shared/containers/Dashboard';
-import { GuestWrapper } from '../shared/containers/Auth';
+import { Dashboard, DashboardWrapper } from 'Containers/Dashboard';
+import { GuestWrapper } from 'Containers/Auth';
 import { PhotoViewWrapper } from 'Containers/PhotoView/PhotoViewWrapper';
 import { SplashPageWrapper } from 'Containers/SplashPageWrapper';
 
@@ -54,8 +54,6 @@ import { NotesProvider } from 'Context/Notes';
 import { PhotoReport, DryingReport, ReportsAndDocuments } from 'Containers/ReportsAndDocuments';
 import { PrivateRoute } from './PrivateRoutes';
 import { PublicRoute } from './PublicRoutes';
-
-import { areEqual } from '../shared/utils/equalityChecks';
 
 // Render Props.  Create here to prevent a rerender, on a route change, due to arrow functions always being considered new
 const signInHowRoute = () => (

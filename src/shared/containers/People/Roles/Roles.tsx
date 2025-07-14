@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { PillBadge } from 'Components/PillBadge';
 import { getDisplayedRolesArray } from 'Utils/helpers';

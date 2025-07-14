@@ -1,7 +1,7 @@
 import React, { memo, useState, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import { ALL_LOCATIONS, PHOTO_MANAGEMENT } from "Utils/constants";
 import { UnitSelector } from "Components/Selectors/UnitSelector";
 import { setSelectedMultiUnit } from "Containers/Project/Unit/actions";

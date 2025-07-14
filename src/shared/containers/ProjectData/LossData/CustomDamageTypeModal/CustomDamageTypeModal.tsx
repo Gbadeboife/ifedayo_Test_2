@@ -1,6 +1,6 @@
 import React, { memo, useState, useCallback, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { CustomDamageTypeModal } from 'Components/ProjectData';
 import { useLossDataFunctions } from 'Context/LossData';
 import {

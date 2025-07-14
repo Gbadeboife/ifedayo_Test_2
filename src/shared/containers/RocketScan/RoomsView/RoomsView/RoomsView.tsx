@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { RoomButtonsContent, Rooms, PhotosFilter, DeleteRoomModal } from 'Containers/RocketScan';
 import { RoomsViewProvider } from 'Context/Project';

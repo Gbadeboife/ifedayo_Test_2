@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { Header } from 'Components/ProjectData/Header';
 import { DamageTypes, DamageInfo, AffectedLocations } from 'Containers/ProjectData';

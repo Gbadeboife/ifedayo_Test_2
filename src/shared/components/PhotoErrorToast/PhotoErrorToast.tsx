@@ -2,7 +2,7 @@
 //The linter does not like how the curly brace on line 44 is not on it's own.
 import React, { memo } from "react";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 
 import classes from "./photoErrorToast.module.css";
 import { Button } from "Components/Button";

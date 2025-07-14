@@ -1,7 +1,7 @@
 import { setFetching, setToaster, setFormErrors as setErrors } from 'Containers/Core/actions';
-import { logout } from '../containers/Auth';
+import { logout } from 'Containers/Auth';
 import { createBrowserHistory } from 'history';
-import { Api } from './api';
+import { Api } from 'Utils/api';
 
 const history = createBrowserHistory();
 

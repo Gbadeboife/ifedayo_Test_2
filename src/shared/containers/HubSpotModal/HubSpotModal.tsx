@@ -1,5 +1,5 @@
 import React, { memo, useEffect, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { HubSpotModal } from 'Components/HubSpotModal';
 
 const HubSpotModalContainer = ({ visible }: { visible: boolean }) => {

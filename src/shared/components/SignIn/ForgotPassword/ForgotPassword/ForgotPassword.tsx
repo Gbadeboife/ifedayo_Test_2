@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { Form } from 'Containers/Form';
 import { Label } from 'Components/Label';
 import { TextBox } from 'Components/TextBox';

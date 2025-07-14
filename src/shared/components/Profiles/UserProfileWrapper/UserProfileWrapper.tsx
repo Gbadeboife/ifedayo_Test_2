@@ -1,5 +1,5 @@
 import React, { memo, ReactNode } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { TabContent } from 'Components/Tabs';
 import { UserTabsLayout } from 'Components/Layouts/UserTabsLayout';

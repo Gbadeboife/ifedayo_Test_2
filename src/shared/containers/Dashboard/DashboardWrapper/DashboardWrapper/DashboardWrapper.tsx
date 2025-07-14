@@ -1,7 +1,7 @@
 import React, { memo, ReactNode, useCallback, useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { width } from 'Utils/screen';
 
 import { DashboardLayout } from 'Components/Layouts';

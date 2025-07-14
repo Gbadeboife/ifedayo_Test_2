@@ -1,7 +1,7 @@
 import React, { memo, useCallback, useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { Gallery } from 'Components/RocketScan';
 
 import { listRoomPhotosPerAlbum } from 'Containers/RocketScan/RoomsView/RoomContent/Gallery/actions';

@@ -1,12 +1,12 @@
 import React, { memo, useCallback } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { awsStore } from 'Utils/awsStore';
 import { Dropzone } from 'Components/DropZone';
 import { useDropzone } from 'react-dropzone';
 import { useDispatch, useSelector } from 'react-redux';
 import { handleApiRequest } from 'Utils/handleApiRequest';
-import { Api } from '../../../utils/api';
+import { Api } from 'Utils/api';
 
 import { showToast } from 'Containers/PhotoErrorToast/actions';
 import { attachAlbumPhoto, setFileUploadingRoom } from 'Containers/DropZone/actions';

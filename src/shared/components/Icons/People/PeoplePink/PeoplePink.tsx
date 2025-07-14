@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import PeoplePink from '../../../../Assets/people-pink.svg';
 import PeoplePinkSmall from '../../../../Assets/people-pink-small.svg';
 import PeoplePinkMedium from '../../../../Assets/people-pink-medium.svg';

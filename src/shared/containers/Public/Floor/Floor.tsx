@@ -2,7 +2,7 @@ import React, { memo, useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { Location } from 'Components/Public';
 import { photoShareFloorRoomsSelector } from '../PhotoShare/selectors';

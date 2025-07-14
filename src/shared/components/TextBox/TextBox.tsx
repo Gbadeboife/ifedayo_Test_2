@@ -1,6 +1,6 @@
 import React, { ChangeEvent, memo, KeyboardEvent } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 interface Props {
   id?: string;

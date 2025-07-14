@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 
 import { initials } from 'Utils/helpers';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { Avatar } from 'Components/Avatar';
 

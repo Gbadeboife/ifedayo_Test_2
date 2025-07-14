@@ -1,6 +1,6 @@
 import React, { memo, ReactNode } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { PhotoViewLayout } from 'Components/Layouts';
 import { NotesProvider } from 'Context/Notes';

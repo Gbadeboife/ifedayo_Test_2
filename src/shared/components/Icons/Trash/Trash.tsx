@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import Trash from '../../../Assets/trash.svg';
 import TrashSm from '../../../Assets/trash-sm.svg';
 import TrashMd from '../../../Assets/trash-md.svg';

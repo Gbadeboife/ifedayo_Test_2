@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import Appliances from '../../../../Assets/appliances.svg';
 import Appliances32 from '../../../../Assets/appliances-sm.svg';
 

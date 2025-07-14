@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from '../../utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { useSelector } from 'react-redux';
 import { appInitialLoadingSelector } from 'Containers/Core/selectors';

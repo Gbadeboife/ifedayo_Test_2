@@ -1,5 +1,5 @@
 import React, { memo, useCallback } from "react";
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import { Button } from "Components/Button";
 
 interface Props {

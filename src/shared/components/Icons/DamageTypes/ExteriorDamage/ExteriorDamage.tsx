@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import ExteriorDamage from '../../../../Assets/exterior.svg';
 import Exterior32 from '../../../../Assets/exterior-32.svg';
 // reusing for now....possible asset change in the future

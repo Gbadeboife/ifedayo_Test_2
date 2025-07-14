@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 
-import { areEqualShallow } from "Utils/equalityChecks";
+import { areEqualShallow } from "utils/equalityChecks";
 import ModalClose from "../../../Assets/modal-close.svg";
 
 // Custom css

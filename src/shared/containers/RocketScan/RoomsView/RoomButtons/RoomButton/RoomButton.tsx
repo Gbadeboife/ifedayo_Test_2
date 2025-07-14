@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useRef } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { RoomButton } from 'Components/Button/RoomButton';
 import { RoomIcon } from 'Components/Icons';
 

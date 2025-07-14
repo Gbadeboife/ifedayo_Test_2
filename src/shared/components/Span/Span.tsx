@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 
 export interface Props {
   id?: string;

@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { Icon } from 'Components/Icons';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { Button } from 'Components/Button';
 import { SignInWrapper } from '../SignInWrapper';

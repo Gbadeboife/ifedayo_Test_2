@@ -1,6 +1,6 @@
 import React, { memo, ReactNode, useCallback, useRef, useState } from "react";
 
-import { areEqualShallow } from "Utils/equalityChecks";
+import { areEqualShallow } from "utils/equalityChecks";
 import { useDebounce } from "Hooks/useDebounce";
 
 interface Props {

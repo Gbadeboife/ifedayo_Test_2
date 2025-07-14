@@ -1,7 +1,7 @@
 import React, { memo, useCallback } from "react";
 
 import { UnitLink } from "Components/Selectors/UnitLink";
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 
 interface Props {
   id: number;

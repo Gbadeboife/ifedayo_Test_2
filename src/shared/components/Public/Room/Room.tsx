@@ -3,7 +3,7 @@ import { RoomIcon } from 'Components/Icons';
 
 import { Albums } from 'Containers/Public';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import classes from './room.module.css';
 

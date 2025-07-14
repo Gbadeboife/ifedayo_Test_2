@@ -1,7 +1,7 @@
 import React, { memo, useCallback, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useUser } from 'Context/User';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { PhotoDownloadModal } from 'Components/Projects';
 

@@ -1,8 +1,8 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
-import { smsSendVerification } from '../../../containers/Auth/actions';
+import { areEqual } from 'utils/equalityChecks';
+import { smsSendVerification } from 'Containers/Auth/actions';
 import { convertPhoneNumber } from 'Utils/helpers';
 import { countries } from 'Utils/data';
 

@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 
 import { Thumbnail, ThumbOverlay } from 'Components/Thumbnail';
 import { Icon } from 'Components/Icons';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import classes from 'Containers/Thumbnail/thumbnail.module.css';
 import { deletePhoto } from '.';
 

@@ -1,7 +1,7 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { ResetPassword } from 'Components/SignIn';
 import { passwordEightCharactersValidator } from 'Utils/regex';
 import { setFormErrors } from 'Containers/Core/actions';

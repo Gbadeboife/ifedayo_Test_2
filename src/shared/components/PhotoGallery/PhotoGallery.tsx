@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { Dropzone } from 'Containers/DropZone';
 import { Thumbnail } from 'Containers/Thumbnail';
 import { Spinner } from 'Components/Spinner';

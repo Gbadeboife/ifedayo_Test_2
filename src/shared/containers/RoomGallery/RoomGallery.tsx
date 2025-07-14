@@ -3,7 +3,7 @@ import React, { memo } from "react";
 import { GalleryHeader } from "Containers/GalleryHeader";
 import { PhotoGallery } from "Containers/PhotoGallery";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import { useSelector } from "react-redux";
 import { selectedPhotoFilterSelector } from "Containers/Project/Unit/selector";
 import classes from "./roomGallery.module.css";

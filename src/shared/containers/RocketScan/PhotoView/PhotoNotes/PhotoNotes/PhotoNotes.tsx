@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { PhotoModal } from 'Containers/PhotoViewCarousel/Models';
 
 import { CreateNoteForm, NotesToast, NoteItems } from 'Components/Notes';

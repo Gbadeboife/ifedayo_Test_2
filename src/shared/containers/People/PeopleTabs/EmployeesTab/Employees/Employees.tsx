@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { EmployeeCard } from 'Containers/People';
 import { LetterHeader } from 'Components/People/PeopleTabs/LetterHeader/LetterHeader';

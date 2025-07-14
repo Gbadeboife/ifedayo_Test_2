@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 import { Button } from 'Components/Button';
 import { Icon } from 'Components/Icons';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { Label } from 'Components/Label';
 
 import classes from './countryCodeSelector.module.css';

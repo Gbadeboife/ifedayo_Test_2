@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import HamburgerMenu from '../../../Assets/hamburger-menu.svg';
 
 // Custom css

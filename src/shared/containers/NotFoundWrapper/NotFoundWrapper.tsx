@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 import { useHistory } from 'react-router-dom';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { NotFoundLayout } from 'Components/Layouts';
 

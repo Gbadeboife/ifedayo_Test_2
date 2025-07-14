@@ -3,7 +3,7 @@ import React, { memo } from 'react';
 import { Label } from 'Components/Label';
 import { TextBox } from 'Components/TextBox';
 import { ValidateBackGround } from 'Components/Validation';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { PurpleButton } from 'Components/Button/PurpleButton';
 import { SignInWrapper } from '../SignInWrapper';
 

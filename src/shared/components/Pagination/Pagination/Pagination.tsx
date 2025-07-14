@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import ReactPaginate from 'react-paginate';
 import { Next, Previous } from 'Components/Pagination';
 import classes from './pagination.module.css';

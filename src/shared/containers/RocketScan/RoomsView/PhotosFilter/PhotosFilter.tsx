@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { PhotosFilter } from 'Components/RocketScan';
 import { setSelectedCategories } from 'Containers/RocketScan/actions';

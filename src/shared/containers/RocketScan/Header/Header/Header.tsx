@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 
 import { TabContentHeader } from 'Components/TabContentHeader';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { ActionsCenter } from 'Containers/RocketScan';
 
 interface Props {

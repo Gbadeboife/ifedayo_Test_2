@@ -1,6 +1,6 @@
 import React, { memo, useEffect } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { WelcomeAboard } from 'Components/SignIn/WelcomeAboard';
 import { useUser } from 'Context/User';

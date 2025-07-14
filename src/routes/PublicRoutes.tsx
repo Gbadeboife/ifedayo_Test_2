@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { Redirect, Route } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { userVerificationsSelector } from 'Containers/User/selector';
 import { getAppRedirectPathLocal } from 'Containers/Core/actions';
 

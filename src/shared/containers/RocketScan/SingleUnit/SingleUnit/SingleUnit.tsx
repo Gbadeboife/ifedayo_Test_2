@@ -1,5 +1,5 @@
 import React, { memo, useEffect, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { locationSelector } from 'Containers/RocketScan/MultiUnit/Locations/selectors';

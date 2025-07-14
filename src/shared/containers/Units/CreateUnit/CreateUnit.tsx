@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import { CreateUnit } from 'Components/Units/CreateUnit';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useDispatch, useSelector } from 'react-redux';
 import { projectIdSelector, propertyMultiSelector } from 'Containers/Project/selectors';
 import { setUnitType } from 'Containers/Projects';

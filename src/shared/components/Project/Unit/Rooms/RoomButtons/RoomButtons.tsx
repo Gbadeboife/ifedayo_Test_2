@@ -1,6 +1,6 @@
 import { RoomButton } from 'Containers/RoomButton';
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { RoomLevel } from 'Components/Rooms/RoomLevel';
 
 interface Props {

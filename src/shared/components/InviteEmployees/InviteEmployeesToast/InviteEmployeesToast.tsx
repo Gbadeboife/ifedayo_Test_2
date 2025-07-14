@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { CheckedMarkSvg } from 'Components/Icons/CheckedMark';
 
 import classes from './inviteEmployeesToast.module.css';

@@ -1,6 +1,6 @@
 import React, { memo, ReactNode } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { PhotoShareLayout } from 'Components/Layouts';
 import { PhotoShareProvider } from 'Context/PhotoShare/PhotoShareProvider';

@@ -1,5 +1,5 @@
 import React, { KeyboardEvent, memo, MouseEvent } from 'react';
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import { Icon } from 'Components/Icons';
 import { Button } from '../Button';
 

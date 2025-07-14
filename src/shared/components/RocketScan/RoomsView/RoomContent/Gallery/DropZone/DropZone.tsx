@@ -2,7 +2,7 @@
 //The linter does not like prop spreading, but dropzone requires it
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import classes from './dropzone.module.css';
 import { Icon } from 'Components/Icons';
 

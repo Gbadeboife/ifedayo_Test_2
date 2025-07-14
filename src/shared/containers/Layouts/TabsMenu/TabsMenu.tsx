@@ -1,6 +1,6 @@
 import React, { memo, useLayoutEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { TabsMenu } from 'Components/TabsMenu';
 

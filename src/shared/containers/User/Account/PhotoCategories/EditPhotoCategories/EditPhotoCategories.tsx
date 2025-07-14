@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import { EditPhotoCategories } from 'Components/User';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useDispatch } from 'react-redux';
 import { updateCompanyPhotoCategories } from 'Containers/Company/actions';
 

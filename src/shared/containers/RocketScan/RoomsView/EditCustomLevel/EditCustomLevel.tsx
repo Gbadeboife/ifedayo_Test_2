@@ -1,6 +1,6 @@
 import React, { memo, useState, useCallback } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { AddCustomForm } from 'Components/RocketScan';
 import { Button } from 'Components/Button';

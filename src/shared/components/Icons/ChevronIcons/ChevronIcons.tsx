@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import Next from '../../../Assets/chevron-next.svg';
 import Previous from '../../../Assets/chevron-previous.svg';
 

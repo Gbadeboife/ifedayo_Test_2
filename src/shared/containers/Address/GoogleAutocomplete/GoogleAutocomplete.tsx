@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 
 import usePlacesService from 'react-google-autocomplete/lib/usePlacesAutocompleteService';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { setAddressRequest } from 'Containers/Address/actions';
 

@@ -1,6 +1,6 @@
 import React, { memo, useCallback } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { Dropzone } from 'Components/RocketScan';
 import { useDropzone } from 'react-dropzone';
 import { useDispatch, useSelector } from 'react-redux';

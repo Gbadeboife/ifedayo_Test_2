@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import ConfirmChecked from '../../../Assets/confirm.svg';
 import ConfirmCheckedSm from '../../../Assets/confirm-sm.svg';
 import ConfirmCheckedPurple from '../../../Assets/confirm-purple.svg';

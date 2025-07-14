@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { areEqual } from '../../utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { projectSelector, propertySelector, projectTypesSelector } from 'Containers/RocketScan/selectors';
 

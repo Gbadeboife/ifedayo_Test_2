@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import Exterior from '../../../Assets/exterior.svg';
 import ExteriorAdd from '../../../Assets/exterior-add.svg';
 

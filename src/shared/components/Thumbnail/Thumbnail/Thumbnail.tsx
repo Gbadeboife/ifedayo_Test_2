@@ -1,7 +1,7 @@
 /*eslint-disable */
 import React, { memo, useState, useCallback } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import classes from './thumbnail.module.css';
 import { ImagePlaceHolder } from 'Components/ImagePlaceHolder';
 import { Icon } from 'Components/Icons';

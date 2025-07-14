@@ -2,7 +2,7 @@ import React, { memo, useCallback, useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 
-import { areEqual, areEqualShallow } from 'Utils/equalityChecks';
+import { areEqual, areEqualShallow } from 'utils/equalityChecks';
 
 import { PhotoView } from 'Components/RocketScan';
 import { PhotoModal } from 'Containers/PhotoViewCarousel/Models';

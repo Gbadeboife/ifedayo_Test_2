@@ -1,7 +1,7 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
-import { areEqual, areEqualShallow } from 'Utils/equalityChecks';
+import { areEqual, areEqualShallow } from 'utils/equalityChecks';
 
 import { PhotoView } from 'Components/PhotoView';
 

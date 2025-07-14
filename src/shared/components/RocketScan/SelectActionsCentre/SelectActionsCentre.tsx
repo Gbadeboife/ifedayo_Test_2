@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { Icon } from 'Components/Icons';
 import { PillButton } from 'Components/PillButton';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import classes from './selectActionsCentre.module.css';
 
 interface Props {

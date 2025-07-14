@@ -1,5 +1,5 @@
 import React, { memo, useEffect, useRef } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import formClasses from 'Themes/form/form.module.css';
 import { TextArea } from 'Components/TextArea';

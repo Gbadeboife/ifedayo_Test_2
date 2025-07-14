@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import { Icon } from 'Components/Icons';
 
 import { PurpleButton } from 'Components/Button';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import classes from './crewPlaceholder.module.css';
 
 interface Props {

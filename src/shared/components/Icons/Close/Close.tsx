@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import Close from '../../../Assets/close.svg';
 import CloseSmall from '../../../Assets/close-sm.svg';
 

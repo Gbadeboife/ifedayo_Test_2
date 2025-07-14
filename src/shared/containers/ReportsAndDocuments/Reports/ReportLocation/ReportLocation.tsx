@@ -1,5 +1,5 @@
 import React, { memo, useCallback } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { ReportLocation } from 'Components/ReportsAndDocuments';
 import { useDispatch, useSelector } from 'react-redux';
 import { setSelectedReportLocations } from 'Containers/ReportsAndDocuments/Reports/actions';

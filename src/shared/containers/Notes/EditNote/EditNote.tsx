@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { NoteEditForm } from 'Components/Notes';
 import { useDispatch } from 'react-redux';
 import { editNote, PHOTO_NOTE_EDITED } from 'Containers/Notes/actions';

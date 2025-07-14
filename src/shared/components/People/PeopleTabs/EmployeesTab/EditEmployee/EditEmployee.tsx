@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 
 import { Modal } from 'Components/Modal';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { TextBox } from 'Components/TextBox';
 import { Label } from 'Components/Label';

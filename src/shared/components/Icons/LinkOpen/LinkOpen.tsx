@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import LinkOpen from '../../../Assets/link-open.svg';
 
 import classes from './linkOpen.module.css';

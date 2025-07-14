@@ -1,9 +1,9 @@
 import React, { memo, useCallback, useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import { SignInEmail } from "Components/SignIn/";
-import { login } from "../../../containers/Auth";
+import { login } from "Containers/Auth";
 import { useHistory } from "react-router-dom";
 import { passwordEightCharactersValidator, emailValidator } from "Utils/regex";
 import { clear } from "./actions";

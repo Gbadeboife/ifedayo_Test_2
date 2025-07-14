@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 
 import { LocationMenuItem } from 'Containers/Public/PhotoShare/PhotoShareWrapper';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 type UnitType = {
   id: number;

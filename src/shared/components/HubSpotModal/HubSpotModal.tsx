@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 import { Modal } from 'Components/Modal';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { Button, PurpleButton } from 'Components/Button';
 
 import { InviteEmployees } from 'Containers/InviteEmployees';

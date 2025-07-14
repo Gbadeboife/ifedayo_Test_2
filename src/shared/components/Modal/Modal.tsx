@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState, MouseEvent, ReactNode, memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { CloseButton } from 'Components/Button/CloseButton';
 import { Modal as BsModal } from 'bootstrap';

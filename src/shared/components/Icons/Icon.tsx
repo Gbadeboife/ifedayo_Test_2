@@ -1,6 +1,6 @@
 import React, { memo, useEffect, useState } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { FilterSvg } from 'Components/Icons/Filter';
 import { CaretUpSvg } from 'Components/Icons/CaretUp';

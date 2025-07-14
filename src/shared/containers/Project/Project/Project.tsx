@@ -2,7 +2,7 @@ import React, { memo, useCallback, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory, useLocation } from 'react-router-dom';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { ProjectTabs, setSelectedTab } from 'Containers/Project/ProjectTabs';
 import { AddLocationTab } from 'Containers/AddLocationTab';

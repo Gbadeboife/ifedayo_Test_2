@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import Circle from '../../../Assets/circle.svg';
 import Circle16 from '../../../Assets/circle-16.svg';
 

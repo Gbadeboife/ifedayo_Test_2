@@ -6,7 +6,7 @@ import { ADD_LOCATIONS, PHOTO_MANAGEMENT, MULTI_UNIT } from 'Utils/constants';
 import { Icon } from 'Components/Icons';
 import { ImageTile } from 'Containers/ImageTile';
 import { UnitGallery } from 'Containers/UnitGallery';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { CreateUnit } from 'Containers/Units/CreateUnit';
 import { CreateFloor } from 'Containers/Units/CreateFloor';
 

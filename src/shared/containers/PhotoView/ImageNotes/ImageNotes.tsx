@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { ImageNotes } from 'Components/ImageNotes';
 import { PhotoModal } from 'Containers/PhotoViewCarousel/Models';
 import { useSelector } from 'react-redux';

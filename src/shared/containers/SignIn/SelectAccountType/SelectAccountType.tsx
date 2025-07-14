@@ -1,6 +1,6 @@
 import React, { memo, useCallback } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { SelectAccountType } from 'Components/SignIn/SelectAccountType';
 import { useHistory } from 'react-router-dom';

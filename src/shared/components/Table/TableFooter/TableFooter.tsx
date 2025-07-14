@@ -1,5 +1,5 @@
 import React, { memo, ReactNode } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 interface Props {
   children: ReactNode;

@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import CheckedMark from '../../../Assets/checked-mark.svg';
 import CheckedMarkPurple from '../../../Assets/checked-mark-purple-bg.svg';
 

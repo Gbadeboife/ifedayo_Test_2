@@ -6,7 +6,7 @@ import { TabContent } from "Components/Tabs";
 import { UnitListItem } from "Containers/Project/MultiUnit/UnitListItem/UnitListItem";
 import { FloorListItem } from "Containers/Project/MultiUnit/FloorListItem";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import classes from "./unitGallery.module.css";
 
 interface Props {

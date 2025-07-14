@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { DamageIcon } from 'Components/Icons';
 import classes from './damageTypeButton.module.css';
 

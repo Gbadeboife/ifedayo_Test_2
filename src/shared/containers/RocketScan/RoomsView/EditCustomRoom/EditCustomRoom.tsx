@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { AddCustomForm } from 'Components/RocketScan';
 import { RoomTypeItem } from 'Containers/RocketScan';
 import { Icon } from 'Components/Icons';

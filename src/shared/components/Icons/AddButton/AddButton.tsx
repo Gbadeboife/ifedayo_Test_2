@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import AddButton from '../../../Assets/add-button-lg.svg';
 import AddButtonSmall from '../../../Assets/add-button-sm.svg';
 

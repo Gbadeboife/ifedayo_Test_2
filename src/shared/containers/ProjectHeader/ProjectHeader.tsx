@@ -2,7 +2,7 @@ import React, { memo, useEffect, useState } from 'react';
 import { Icon } from 'Components/Icons';
 // import { PillButton } from "Components/PillButton";
 // import { Toggle } from "Components/Toggle";
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { useSelector } from 'react-redux';
 import classes from './projectHeader.module.css';

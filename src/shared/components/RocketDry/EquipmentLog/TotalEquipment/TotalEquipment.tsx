@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { Icon, RoomIcon } from 'Components/Icons';
 import { EquipmentCount, NoEquipmentPlaceholder } from 'Components/RocketDry';

@@ -1,5 +1,5 @@
 import React, { KeyboardEvent, memo, MouseEvent } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 interface Props {
   className: string;

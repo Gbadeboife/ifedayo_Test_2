@@ -3,7 +3,7 @@ import { Icon } from 'Components/Icons';
 import { Toast } from 'Components/Toast';
 import { Anchor } from 'Components/Anchor';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import classes from './guestLayout.module.css';
 

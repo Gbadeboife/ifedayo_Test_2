@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useRef, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { listRoomsForNotes } from 'Containers/Notes/actions';
 
 import { LoadMoreNotesButton } from 'Components/Notes';

@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 import { Icon } from 'Components/Icons';
 import { ValidateBackGround } from 'Components/Validation';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { AutoFocusInput } from 'Containers/AutoFocusInput';
 import { Button } from 'Components/Button';

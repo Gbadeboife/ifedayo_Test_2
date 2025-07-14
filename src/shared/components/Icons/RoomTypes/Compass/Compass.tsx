@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import NorthFacing from '../../../../Assets/northfacing.svg';
 import SouthFacing from '../../../../Assets/southfacing.svg';

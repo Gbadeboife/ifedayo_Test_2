@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { AffectedLocations } from 'Components/ProjectData';
 

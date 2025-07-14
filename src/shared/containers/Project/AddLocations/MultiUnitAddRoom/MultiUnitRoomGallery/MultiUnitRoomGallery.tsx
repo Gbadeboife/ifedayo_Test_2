@@ -2,7 +2,7 @@ import React, { memo } from "react";
 
 import { GalleryHeader } from "Containers/GalleryHeader";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import { useSelector } from "react-redux";
 import { selectedPhotoFilterSelector } from "Containers/Project/Unit/selector";
 import { MultiUnitPhotoGallery } from "Containers/Project/AddLocations/MultiUnitAddRoom";

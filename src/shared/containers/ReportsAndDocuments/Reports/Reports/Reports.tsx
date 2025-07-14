@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { Reports, ChooseReportTypeModal } from 'Components/ReportsAndDocuments';
 import { useHistory } from 'react-router-dom';
 import { useSelector } from 'react-redux';

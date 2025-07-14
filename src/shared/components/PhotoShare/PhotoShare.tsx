@@ -4,7 +4,7 @@ import { Header } from 'Components/PhotoShare/Header';
 import { SideBarFixed } from 'Containers/Public/PhotoShare/PhotoShareWrapper/SideBarFixed';
 import { Location } from 'Containers/Public/Location';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import classes from './photoShare.module.css';
 
 interface Props {

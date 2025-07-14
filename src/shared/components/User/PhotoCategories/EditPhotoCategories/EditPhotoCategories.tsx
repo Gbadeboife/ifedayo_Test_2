@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { CategoryRow } from 'Containers/User';
 import { DarkPurpleButton, PurpleButton } from 'Components/Button';
 

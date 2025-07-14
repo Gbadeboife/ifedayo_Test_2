@@ -2,7 +2,7 @@ import React, { memo, ReactNode } from "react";
 // import { useSelector } from "react-redux";
 
 import { LocationsTabs, TabContent, ProjectTabMenu } from "Components/Tabs";
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import { useSelector } from "react-redux";
 
 interface Props {

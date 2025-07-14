@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { DamageTypeButton } from 'Components/RocketScan';
 import { useDamagedMaterialFunctions } from 'Context/RocketScan';

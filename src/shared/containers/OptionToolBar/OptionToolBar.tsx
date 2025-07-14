@@ -1,5 +1,5 @@
 import React, { memo, useCallback } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { OptionToolBar } from 'Components/OptionToolBar';
 
 // To populate option titles, set array in Utils/data and import

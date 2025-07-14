@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { PurpleButton } from 'Components/Button/PurpleButton';
 import { SignInWrapper } from 'Components/SignIn/SignInWrapper';
 import classes from './forgotPasswordEmailSent.module.css';

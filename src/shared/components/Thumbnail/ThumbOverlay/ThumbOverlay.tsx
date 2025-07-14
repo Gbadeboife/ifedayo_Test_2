@@ -1,7 +1,7 @@
 /*eslint-disable */
 import React, { memo } from "react";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import classes from "./thumbOverlay.module.css";
 
 interface Props {

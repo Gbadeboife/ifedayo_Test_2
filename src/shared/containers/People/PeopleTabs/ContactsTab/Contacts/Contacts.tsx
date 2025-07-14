@@ -1,5 +1,5 @@
 import React, { memo, useEffect } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { ContactCard } from 'Containers/People/PeopleTabs/ContactsTab';
 import { LetterHeader } from 'Components/People/PeopleTabs/LetterHeader/LetterHeader';
 import { useDispatch, useSelector } from 'react-redux';

@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import { Album } from "Containers/Project/Unit/Rooms/Room/Albums/Album";
 
 import classes from "./albums.module.css";

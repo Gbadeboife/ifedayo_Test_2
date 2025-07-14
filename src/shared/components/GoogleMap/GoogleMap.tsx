@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import GoogleMapReact from 'google-map-react';
 import { CompanyProjectsDataModal } from 'Containers/Projects/Modals';
 import { MapPin } from 'Containers/MapPin';

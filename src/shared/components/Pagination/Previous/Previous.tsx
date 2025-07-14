@@ -1,6 +1,6 @@
 import { Icon } from 'Components/Icons';
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 interface Props {
   className?: string;

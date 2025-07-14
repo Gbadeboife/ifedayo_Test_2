@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import Plumbing from '../../../../Assets/plumbing.svg';
 import Plumbing32 from '../../../../Assets/plumbing-32.svg';
 // reusing for now....possible asset change in the future

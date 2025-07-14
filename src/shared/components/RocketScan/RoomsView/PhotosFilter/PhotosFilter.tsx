@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { Icon } from 'Components/Icons';
 import { Button, CancelButton, CategoryButton } from 'Components/Button';

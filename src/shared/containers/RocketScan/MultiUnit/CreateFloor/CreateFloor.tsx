@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import { CreateFloorModal } from 'Components/RocketScan';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useDispatch, useSelector } from 'react-redux';
 import { coreFetchingSelector } from 'Containers/Core/selectors';
 import { propertySelector, projectSelector, propertyTypesSelector } from 'Containers/RocketScan/selectors';

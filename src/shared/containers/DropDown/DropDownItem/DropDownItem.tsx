@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useEffect, useRef } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { DropDownItem } from 'Components/DropDown/DropDownItem';
 import { MiniDropdownItem } from 'Components/DropDown/MiniDropdownItem';
 import { dropdownSizes } from 'Components/DropDown';

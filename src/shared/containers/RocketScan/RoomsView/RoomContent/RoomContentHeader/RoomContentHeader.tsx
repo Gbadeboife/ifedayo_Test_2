@@ -5,7 +5,7 @@ import { LevelSelector } from 'Containers/RocketScan/RoomsView/RoomContent/Level
 
 import { PillBadge } from 'Components/PillBadge';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { EditButton } from 'Components/Button/EditButton';
 import { updateRoomLevel } from 'Containers/RocketScan/RoomsView/Rooms/actions';

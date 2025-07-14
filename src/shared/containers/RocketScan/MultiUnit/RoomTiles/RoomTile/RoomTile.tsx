@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { RoomTile } from 'Components/RocketScan';
 import { useOnScreen } from 'Hooks/useOnScreen';

@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 
 import { Modal } from 'Components/Modal';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { PurpleButton } from 'Components/Button';
 import { EmailAnchor } from 'Components/Anchor/EmailAnchor';
 import { PhoneAnchor } from 'Components/Anchor/PhoneAnchor';

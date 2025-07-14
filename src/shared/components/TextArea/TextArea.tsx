@@ -2,7 +2,7 @@ import React, { ChangeEvent, memo, KeyboardEvent } from 'react';
 
 import TextareaAutosize from 'react-textarea-autosize';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import classes from './textArea.module.css';
 

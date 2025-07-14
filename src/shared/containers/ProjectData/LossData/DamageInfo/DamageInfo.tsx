@@ -1,6 +1,6 @@
 import React, { memo, useEffect, useState, useCallback } from 'react';
 import { useDispatch } from 'react-redux';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { compareArrays, formatDate } from 'Utils/helpers';
 

@@ -2,7 +2,7 @@ import React, { memo, ReactNode, useState } from "react";
 
 import { Icon } from "Components/Icons";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import { width } from "Utils/screen";
 import { Tab } from "../Tab";
 import classes from "./mobileProjectsTabs.module.css";

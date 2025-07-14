@@ -4,7 +4,7 @@ import { Icon } from 'Components/Icons';
 import { LevelSelector } from 'Containers/RocketScan/RoomsView/RoomContent/LevelSelector/LevelSelector';
 import { updateRoomLevel } from 'Containers/Project/Unit/Rooms/actions';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import classes from './galleryHeader.module.css';
 

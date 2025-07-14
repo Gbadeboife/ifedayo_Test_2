@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useEffect, useRef, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { UnitClaimsLocation } from 'Components/ProjectData/ClaimsData/UnitClaims';
 import { useDispatch } from 'react-redux';

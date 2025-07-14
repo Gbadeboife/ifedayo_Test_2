@@ -59,7 +59,7 @@
       "Containers/*": ["src/shared/containers/*"],
       "HOC/*": ["src/shared/hoc/*"],
       "Hooks/*": ["src/shared/hooks/*"],
-      "Utils/*": ["src/shared/utils/*"],
+      "utils/*": ["src/shared/utils/*"],
       "Context/*": ["src/shared/context/*"],
       "Themes/*": ["src/shared/themes/*"],
       "Routes/*": ["src/routes/*"]

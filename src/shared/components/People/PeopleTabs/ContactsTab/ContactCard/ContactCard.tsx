@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { EmailAnchor } from 'Components/Anchor/EmailAnchor';
 import { PhoneAnchor } from 'Components/Anchor/PhoneAnchor';

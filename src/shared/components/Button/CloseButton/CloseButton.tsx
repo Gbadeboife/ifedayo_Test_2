@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 
-import { areEqualShallow } from "Utils/equalityChecks";
+import { areEqualShallow } from "utils/equalityChecks";
 import { Button } from "../Button";
 import { Icon } from "Components/Icons";
 import classes from "./closeButton.module.css"

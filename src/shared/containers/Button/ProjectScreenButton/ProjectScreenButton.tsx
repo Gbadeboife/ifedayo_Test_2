@@ -1,6 +1,6 @@
 import React, { memo, useState, useCallback } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { ProjectScreenButton } from 'Components/Button';
 
 const ProjectScreenButtonContainer = () => {

@@ -1,7 +1,7 @@
 import React, { memo, useLayoutEffect, useState } from 'react';
 
 import { DamageIcon } from 'Components/Icons';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useDamagedMaterialFunctions } from 'Context/RocketScan';
 
 import { DamagedMaterialViewList } from 'Components/RocketScan';

@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { PurpleButton } from 'Components/Button';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { SignInWrapper } from '../SignInWrapper';
 import classes from './blocked.module.css';

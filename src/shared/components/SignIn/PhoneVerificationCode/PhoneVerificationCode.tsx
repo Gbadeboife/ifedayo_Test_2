@@ -1,7 +1,7 @@
 import React, { memo, useEffect, useRef, useState } from 'react';
 
 import { ValidateBackGround } from 'Components/Validation';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { PurpleButton } from 'Components/Button/PurpleButton';
 import { Anchor } from 'Components/Anchor';
 import { formatPhoneInternationalWithCountryCode } from 'Utils/helpers';

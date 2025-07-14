@@ -2,7 +2,7 @@ import React, { memo, useCallback, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 
 import { ForgotPasswordEmailSent } from 'Components/SignIn';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useDispatch, useSelector } from 'react-redux';
 import { setToaster } from 'Containers/Core';
 import { Toast } from 'Components/Toast';

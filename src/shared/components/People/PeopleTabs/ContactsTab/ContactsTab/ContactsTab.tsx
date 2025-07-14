@@ -3,7 +3,7 @@ import React, { memo } from 'react';
 import { Spinner } from 'Components/Spinner';
 import { PurpleButton } from 'Components/Button/PurpleButton';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { InvitePlaceholder } from 'Components/People/PeopleTabs';
 import { Contacts } from 'Containers/People/PeopleTabs/ContactsTab';

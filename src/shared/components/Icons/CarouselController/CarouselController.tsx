@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import Next from '../../../Assets/carousel-next.svg';
 import Prev from '../../../Assets/carousel-prev.svg';
 

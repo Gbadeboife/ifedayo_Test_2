@@ -1,6 +1,6 @@
 import React, { memo, ReactNode, useRef, useCallback, useEffect } from "react";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 
 // This will import direct overrides for Bootstrap classes
 import classes from "./tab.module.css";

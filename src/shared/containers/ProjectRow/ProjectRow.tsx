@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 
 import { ProjectRow } from 'Components/Dashboard/ProjectRow';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 interface Props {
   title: any;

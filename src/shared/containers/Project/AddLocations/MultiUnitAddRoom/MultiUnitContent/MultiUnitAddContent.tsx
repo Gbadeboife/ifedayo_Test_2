@@ -1,7 +1,7 @@
 import React, { memo, useState, useCallback, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { PurpleButton } from 'Components/Button';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { CreateRoom } from 'Components/Rooms/CreateRoom';
 import { LocationsPlaceholder } from 'Containers/LocationsPlaceholder/LocationsPlaceholder';
 import { RoomButton } from 'Containers/RoomButton';

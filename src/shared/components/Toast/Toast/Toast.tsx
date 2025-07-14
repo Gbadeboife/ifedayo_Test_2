@@ -3,7 +3,7 @@
 import React, { memo, useCallback, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { CheckedMarkSvg } from 'Components/Icons/CheckedMark';
 import { SET_TOASTER } from 'Containers/Core/actions';
 

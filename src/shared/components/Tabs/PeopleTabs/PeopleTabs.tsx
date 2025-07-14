@@ -1,7 +1,7 @@
 import { Icon } from 'Components/Icons';
 import React, { memo, ReactNode, useState } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { width } from 'Utils/screen';
 import { Tab } from '../Tab';
 import classes from './people.tabs.module.css';

@@ -1,6 +1,6 @@
 import React, { memo, useCallback } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { Photo } from 'Components/Project/Unit/Rooms/Room/Albums/Album/Photos/Photo/Photo';
 import { useDispatch, useSelector } from 'react-redux';

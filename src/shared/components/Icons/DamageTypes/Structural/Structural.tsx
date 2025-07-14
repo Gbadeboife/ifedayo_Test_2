@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqualShallow } from 'Utils/equalityChecks';
+import { areEqualShallow } from 'utils/equalityChecks';
 import Structural from '../../../../Assets/structural.svg';
 import Structural32 from '../../../../Assets/structural-32.svg';
 

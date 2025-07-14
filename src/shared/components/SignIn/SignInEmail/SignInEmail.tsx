@@ -4,7 +4,7 @@ import { Label } from "Components/Label";
 import { TextBox } from "Components/TextBox";
 import { ValidateBackGround } from "Components/Validation";
 import { Icon } from "Components/Icons";
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import { PurpleButton } from "Components/Button/PurpleButton";
 import { KeepMeSignedInForgotPassword } from "../KeepMeSignedInForgotPassword";
 import { SignInWrapper } from "../SignInWrapper";

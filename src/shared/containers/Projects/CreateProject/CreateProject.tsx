@@ -1,7 +1,7 @@
 import React, { memo, useCallback } from "react";
 import { useHistory } from "react-router-dom";
 
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 
 import { CreateProject } from "Components/Projects";
 

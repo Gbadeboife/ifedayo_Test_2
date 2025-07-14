@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useEffect, useRef, useState } from 'react';
-import { areEqual, areEqualShallow } from 'Utils/equalityChecks';
+import { areEqual, areEqualShallow } from 'utils/equalityChecks';
 import { Carousel } from 'bootstrap';
 import { PhotoViewCarousal } from 'Components/PhotoViewCarousal';
 import { PhotoModal } from 'Containers/PhotoViewCarousel/Models';

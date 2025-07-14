@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 import { Button } from 'Components/Button';
 import { CreateCustomLevel, EditCustomLevel } from 'Containers/RocketScan';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import classes from './levelSelector.module.css';
 

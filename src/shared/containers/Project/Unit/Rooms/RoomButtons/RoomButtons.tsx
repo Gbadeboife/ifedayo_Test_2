@@ -1,5 +1,5 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useDispatch, useSelector } from 'react-redux';
 import { setSelectedRoomId } from 'Containers/Project/Unit/Rooms/actions';
 import { selectedRoomIdSelector } from 'Containers/Project/Unit/Rooms/selectors';

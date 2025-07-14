@@ -1,6 +1,6 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 import { CreateFloor } from 'Components/Units/CreateFloor';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useDispatch, useSelector } from 'react-redux';
 import { projectIdSelector } from 'Containers/Project/selectors';
 import { setFloorType } from 'Containers/Projects';

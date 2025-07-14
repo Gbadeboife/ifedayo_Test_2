@@ -1,5 +1,5 @@
 import React, { memo, ReactNode, useCallback, useEffect } from 'react';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { useDispatch } from 'react-redux';
 import Pusher from 'pusher-js';
 import { setPusher } from 'Containers/Core/actions';

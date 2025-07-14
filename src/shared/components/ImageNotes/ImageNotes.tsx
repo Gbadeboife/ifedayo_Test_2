@@ -3,7 +3,7 @@ import React, { memo } from 'react';
 import { Icon } from 'Components/Icons';
 import { Button } from 'Components/Button';
 import { ImageDeleteModal } from 'Containers/ImageDeleteModal';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { PhotoShareBreadCrumb } from 'Components/PhotoShare/PhotoShareBreadCrumb';
 
 import { NoteItem } from './NoteItem/NoteItem';

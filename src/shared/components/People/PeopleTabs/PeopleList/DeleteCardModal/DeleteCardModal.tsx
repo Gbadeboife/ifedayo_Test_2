@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 
 import { Modal } from 'Components/Modal';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { Button } from 'Components/Button';
 
 import classes from './deleteCardModal.module.css';

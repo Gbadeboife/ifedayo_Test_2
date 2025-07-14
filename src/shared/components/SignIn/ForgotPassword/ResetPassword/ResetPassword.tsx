@@ -4,7 +4,7 @@ import { Label } from 'Components/Label';
 import { SignInWrapper } from 'Components/SignIn/SignInWrapper';
 import { TextBox } from 'Components/TextBox';
 import { ValidateBackGround } from 'Components/Validation';
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 import { Icon } from 'Components/Icons';
 import { PurpleButton } from 'Components/Button';
 import classes from './resetpassword.module.css';

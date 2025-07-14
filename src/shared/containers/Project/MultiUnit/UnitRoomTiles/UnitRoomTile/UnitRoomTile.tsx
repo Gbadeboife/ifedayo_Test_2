@@ -1,5 +1,5 @@
 import React, { memo, useEffect, useState } from "react";
-import { areEqual } from "Utils/equalityChecks";
+import { areEqual } from "utils/equalityChecks";
 import classes from "Containers/Project/MultiUnit/MultiUnit/multiUnit.module.css";
 import { RoomTiles } from "Containers/Project/MultiUnit/RoomTiles";
 import { useDispatch, useSelector } from "react-redux";

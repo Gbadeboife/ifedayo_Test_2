@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { areEqual } from 'Utils/equalityChecks';
+import { areEqual } from 'utils/equalityChecks';
 
 import { CompanyHeader } from 'Components/CompanyHeader';
 import { ProgressBar } from 'Components/ProgressBar';
