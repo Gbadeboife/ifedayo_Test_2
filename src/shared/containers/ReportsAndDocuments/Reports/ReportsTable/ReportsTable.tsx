@@ -2,7 +2,7 @@ import React, { memo, useCallback, useEffect, useState } from 'react';
 import { areEqual } from 'utils/equalityChecks';
 import { DeleteReportModal, ReportsTable, ShareReportModal } from 'Components/ReportsAndDocuments';
 import { UserModel } from 'Containers/User/Models/UserModel';
-import { useUser } from 'context/user';
+import { useUser } from 'context/User';
 import { reportTableHeaders } from 'Utils/table';
 import { useDispatch, useSelector } from 'react-redux';
 import {

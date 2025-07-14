@@ -10,7 +10,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { listProjectMembers, removeEmployeeFromProject, setEmployeeRemoved } from 'Containers/Crew/actions';
 import { projectIdSelector } from 'Containers/RocketScan/selectors';
 import { employeeRemovedSelector, removingEmployeeSelector } from 'Containers/Crew/selectors';
-import { useUser } from 'context/user';
+import { useUser } from 'context/User';
 import { formatPhoneNumberInternational } from 'Utils/helpers';
 import classes from './members.module.css';
 

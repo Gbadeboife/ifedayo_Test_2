@@ -13,7 +13,7 @@ import {
 import { listEmployees, setAttachingEmployees, syncEmployeeToProject } from 'Containers/Crew/actions';
 import { projectCompanyIdSelector, projectIdSelector } from 'Containers/RocketScan/selectors';
 
-import { useUser } from 'context/user';
+import { useUser } from 'context/User';
 
 import { Modal } from 'Components/Modal';
 import { SearchBox } from 'Components/SearchBox';

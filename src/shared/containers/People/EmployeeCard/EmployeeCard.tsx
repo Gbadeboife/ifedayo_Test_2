@@ -1,7 +1,7 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 
 import { areEqual } from 'utils/equalityChecks';
-import { useUser } from 'context/user';
+import { useUser } from 'context/User';
 import { UserModel } from 'Containers/User/Models/UserModel';
 import { AvatarOrInitials } from 'Components/Avatar';
 import { convertPhoneNumber, formatPhoneInternationalWithCountryCode } from 'Utils/helpers';

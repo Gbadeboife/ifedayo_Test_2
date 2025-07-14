@@ -2,7 +2,7 @@ import React, { memo, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { areEqual } from 'utils/equalityChecks';
-import { useUser } from 'context/user';
+import { useUser } from 'context/User';
 
 import { UserModel } from 'Containers/User/Models/UserModel';
 import { CompanyInfoCard } from 'Components/Profiles/Account/CompanyProfile/CompanyInfoCard';

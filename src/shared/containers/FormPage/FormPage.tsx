@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { areEqual } from 'utils/equalityChecks';
 import { Icon } from 'Components/Icons';
 import { Tab } from 'Components/Tabs/Tab';
-import { useUser } from 'context/user';
+import { useUser } from 'context/User';
 import { firstCompanyIdSelector } from 'Containers/Projects/selectors';
 import { handleApiRequest } from 'Utils/handleApiRequest';
 import classes from './formPage.module.css';

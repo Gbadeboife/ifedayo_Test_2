@@ -10,7 +10,7 @@ import { PHOTO_NOTE_EDITED, setNoteEditedGeneral } from 'Containers/Notes/action
 import { fetchingPhotosSelector } from 'Containers/RocketScan/PhotoView/Carousel/selectors';
 import { Spinner } from 'Components/Spinner';
 import { UserModel } from 'Containers/User/Models/UserModel';
-import { useUser } from 'context/user';
+import { useUser } from 'context/User';
 import { isCompanyAdmin } from 'Utils/roles';
 import { useNotesFunctions } from 'Context/Notes';
 import { createPhotoNote, listPhotoNotes, setPhotoNoteCreated } from '../actions';

@@ -1,7 +1,7 @@
 import React, { memo, useCallback, useEffect, useState } from 'react';
 
 import { areEqual } from 'utils/equalityChecks';
-import { useUser } from 'context/user';
+import { useUser } from 'context/User';
 
 import { useHistory } from 'react-router-dom';
 import { convertFirstLetterUppercase, getUnixTimeFromString } from 'Utils/helpers';

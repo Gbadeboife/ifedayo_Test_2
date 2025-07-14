@@ -8,7 +8,7 @@ import { CompanyProjectsDataModal } from 'Containers/Projects/Modals/CompanyProj
 import { listCompanyMyProjects } from 'Containers/Projects/actions';
 import { firstCompanyIdSelector, myProjectsSelector, fetchingMyProjectsSelector } from 'Containers/Projects/selectors';
 import { UserModel } from 'Containers/User/Models/UserModel';
-import { useUser } from 'context/user';
+import { useUser } from 'context/User';
 import { useProjectsEvents } from 'Hooks/useProjectsEvents';
 import { useProjectsFunctions } from 'Context/Projects';
 
