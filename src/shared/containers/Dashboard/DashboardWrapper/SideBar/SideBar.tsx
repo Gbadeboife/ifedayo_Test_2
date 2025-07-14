@@ -4,7 +4,7 @@ import { areEqual } from 'utils/equalityChecks';
 
 import { SideBar } from 'Components/SideBar';
 import { navItems } from 'Utils/navItems';
-import { useUser } from 'Context/User';
+import { useUser } from 'context/user';
 
 interface Props {
   sideBarDesktop: boolean;

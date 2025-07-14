@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { areEqual } from 'utils/equalityChecks';
 import { validateImageFileType, validateImageResolution } from 'Utils/helpers';
 import { createWorkerFactory, useWorker } from '@shopify/react-web-worker';
-import { useUser } from 'Context/User';
+import { useUser } from 'context/user';
 import { UserModel } from 'Containers/User/Models/UserModel';
 import { setAvatarUploading, resetAvatarUploading, userDetails } from 'Containers/User/actions';
 import { setLogoUploading, resetLogoUploading } from 'Containers/Company/actions';

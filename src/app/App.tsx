@@ -3,8 +3,8 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { Routes } from '../routes';
 
-import { UserProvider } from 'Context/User';
-import { CoreProvider } from 'Context/Core';
+import { UserProvider } from 'context/user';
+import { CoreProvider } from 'context/Core';
 
 // Pull the mock data
 import { setupStore } from '../store';

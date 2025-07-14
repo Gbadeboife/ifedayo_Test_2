@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { showToast } from 'Containers/PhotoErrorToast/actions';
 import { createWorkerFactory, useWorker } from '@shopify/react-web-worker';
-import { useUser } from 'Context/User';
+import { useUser } from 'context/user';
 import { UserModel } from 'Containers/User/Models/UserModel';
 import { chunkArray, getPhotosChunkSize, generateUUID } from 'Utils/helpers';
 import { photoUploadingRoomAndAlbumSelector } from 'Containers/RocketScan/RoomsView/RoomContent/Gallery/selectors';

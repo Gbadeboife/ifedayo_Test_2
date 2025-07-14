@@ -3,7 +3,7 @@ import React, { memo, useEffect } from 'react';
 import { areEqual } from 'utils/equalityChecks';
 
 import { WelcomeAboard } from 'Components/SignIn/WelcomeAboard';
-import { useUser } from 'Context/User';
+import { useUser } from 'context/user';
 import { useDispatch } from 'react-redux';
 import { userDetails } from 'Containers/User';
 

@@ -84,7 +84,7 @@ module.exports = {
       RocketAssets: `${paths.src}/shared/assets`,
       Components: path.normalize(`${paths.src}/shared/components`),
       Containers: path.normalize(`${paths.src}/shared/containers`),
-      Context: path.normalize(`${paths.src}/shared/context`),
+      context: path.normalize(`${paths.src}/shared/context`),
       HOC: path.normalize(`${paths.src}/shared/hoc`),
       utils: path.normalize(`${paths.src}/shared/utils`),
       Hooks: path.normalize(`${paths.src}/shared/hooks`),

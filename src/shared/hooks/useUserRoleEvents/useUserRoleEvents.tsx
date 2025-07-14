@@ -1,5 +1,5 @@
 import { UserModel } from 'Containers/User/Models/UserModel';
-import { useUser } from 'Context/User';
+import { useUser } from 'context/user';
 import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { areEqual } from 'utils/equalityChecks';

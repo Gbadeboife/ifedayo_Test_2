@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Spinner } from 'Components/Spinner';
 import { NotesDropdown, CreateNoteForm, NoteItems, LoadMoreNotesButton } from 'Components/Notes';
 import { UserModel } from 'Containers/User/Models/UserModel';
-import { useUser } from 'Context/User';
+import { useUser } from 'context/user';
 import { isCompanyAdmin } from 'Utils/roles';
 import { areEqual } from 'utils/equalityChecks';
 

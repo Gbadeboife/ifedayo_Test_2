@@ -7,7 +7,7 @@ import { bodyErrorSelector } from 'Containers/RocketScan/RoomsView/RoomNotes/sel
 
 import { createRoomNote, listRoomNotes } from 'Containers/RocketScan/RoomsView/RoomNotes/actions';
 import { UserModel } from 'Containers/User/Models/UserModel';
-import { useUser } from 'Context/User';
+import { useUser } from 'context/user';
 import { isCompanyAdmin } from 'Utils/roles';
 import { Spinner } from 'Components/Spinner';
 import { useNotesFunctions } from 'Context/Notes';

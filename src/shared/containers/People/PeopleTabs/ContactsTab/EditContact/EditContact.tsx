@@ -13,7 +13,7 @@ import {
   setPhoneRecord,
 } from 'Containers/People/PeopleTabs/ContactsTab/actions';
 import { firstCompanyIdSelector } from 'Containers/Projects/selectors';
-import { useUser } from 'Context/User';
+import { useUser } from 'context/user';
 import { UserModel } from 'Containers/User/Models/UserModel';
 import {
   companyNameErrorSelector,

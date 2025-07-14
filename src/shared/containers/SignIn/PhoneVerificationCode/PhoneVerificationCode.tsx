@@ -11,7 +11,7 @@ import { CODE_VERIFIED } from 'Containers/SignIn/PhoneVerificationCode/actions';
 import { UserPhonesModel } from 'Containers/User/Models/UserPhonesModel';
 import { inviteCompanyInfoSelector } from 'Containers/SignIn/SignInHow/selector';
 import { smsSendVerification, smsVerifyCode } from 'Containers/Auth/actions';
-import { useUser } from 'Context/User';
+import { useUser } from 'context/user';
 import { userPhoneDetailsSelector } from 'Containers/User/selector';
 
 const codeSelector = ({ core }: any) => {

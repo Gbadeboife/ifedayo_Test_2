@@ -13,7 +13,7 @@ import { formatPhoneNumberInternational } from 'Utils/helpers';
 import { isCompanyAdmin } from 'Utils/roles';
 
 import { firstCompanyIdSelector } from 'Containers/Projects/selectors';
-import { useUser } from 'Context/User';
+import { useUser } from 'context/user';
 import { UserModel } from 'Containers/User/Models/UserModel';
 import { companyEmployeeRolesSelector } from 'Containers/User/selector';
 import { listCompanyEmployeeRoles } from 'Containers/User/actions';
